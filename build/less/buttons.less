@@ -55,21 +55,25 @@
 
 //Button color variations
 .btn-default {
-  background-color: #f4f4f4;
-  color: #444;
-  border-color: #ddd;
+  background-color: @brand-primary;
+  color: #fff;
+  border-color: @brand-primary;
+  border-radius: 30px;
   &:hover,
   &:active,
   &.hover {
-    background-color: darken(#f4f4f4, 5%);
+    background-color: darken(#fff, 5%);
+    color: @brand-primary;
+    border-color: @brand-primary;
   }
 }
 
 .btn-primary {
-  background-color: @light-blue;
-  border-color: darken(@light-blue, 5%);
+  background-color: @brand-primary;
+  border-color:@brand-primary;
   &:hover, &:active, &.hover {
-    background-color: darken(@light-blue, 5%);
+    background-color: darken(#fff, 5%);
+    color: @brand-primary;
   }
 }
 
