@@ -7,8 +7,8 @@
   > li > a:hover,
   > li > a:active,
   > li > a:focus {
-    color: #444;
-    background: #f7f7f7;
+    color: @primary;
+    background: @gray-light;
   }
 }
 
@@ -47,7 +47,7 @@
     background: transparent;
     color: #444;
     border-top: 0;
-    border-left-color: @light-blue;
+    border-left-color: @gray-light;
   }
 
   > li.header {
@@ -66,6 +66,7 @@
   box-shadow: @box-boxshadow;
   border-radius: @box-border-radius;
   > .nav-tabs {
+    color: @gray;
     margin: 0;
     border-bottom-color: #f4f4f4;
     .border-top-radius(@box-border-radius);
@@ -206,7 +207,7 @@
   &.tab-default {
     > .nav-tabs {
       > li.active {
-        border-top-color: @gray-lte;
+        border-top-color: @gray-light;
       }
     }
   }

@@ -25,6 +25,7 @@
 //COLORS
 //--------------------------------------------------------
 //Primary
+@primary: #FF2C77;
 @light-blue: #3c8dbc;
 //Danger
 @red: #dd4b39;
@@ -44,7 +45,9 @@
 @purple: #605ca8;
 @maroon: #D81B60;
 @black: #111;
-@gray-lte: #d2d6de;
+@gray-light: darken(@white, 5%);
+@white: #fff;
+@gray: #343740;
 
 //LAYOUT
 //--------------------------------------------------------
@@ -57,12 +60,11 @@
 @screen-header-collapse: @screen-xs-max;
 
 //Link colors (Aka: <a> tags)
-@link-color: @light-blue;
-@link-hover-color: lighten(@link-color, 15%);
+@link-color: @gray;
+@link-hover-color: @primary;
 
 //Body background (Affects main content background only)
-@body-bg: #ecf0f5;
-
+@body-bg:@white;
 //SIDEBAR SKINS
 //--------------------------------------------------------
 
@@ -111,7 +113,7 @@
 
 //FORMS
 //--------------------------------------------------------
-@input-radius: 0;
+@input-radius: 8px;
 
 //BUTTONS
 //--------------------------------------------------------
@@ -122,9 +124,9 @@
 //DIRECT CHAT
 //--------------------------------------------------------
 @direct-chat-height: 250px;
-@direct-chat-default-msg-bg: @gray-lte;
+@direct-chat-default-msg-bg: @gray-light;
 @direct-chat-default-font-color: #444;
-@direct-chat-default-msg-border-color: @gray-lte;
+@direct-chat-default-msg-border-color: @gray-light;
 
 //CHAT WIDGET
 //--------------------------------------------------------

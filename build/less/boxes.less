@@ -5,15 +5,16 @@
 .box {
   position: relative;
   .border-radius(@box-border-radius);
-  background: #ffffff;
-  border-top: 3px solid @box-default-border-top-color;
+  background: lighten(@gray-light, 20%);
   margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
   box-shadow: @box-boxshadow;
 
   // Box color variations
   &.box-primary {
-    border-top-color: @light-blue;
+    border-top-color: @primary;
   }
   &.box-info {
     border-top-color: @aqua;
@@ -28,7 +29,7 @@
     border-top-color: @green;
   }
   &.box-default {
-    border-top-color: @gray-lte;
+    border-top-color: none;
   }
 
   // collapsed mode
@@ -84,7 +85,7 @@
 
     // Box color variations
     &.box-default {
-      .box-solid-variant(@gray-lte, #444);
+      .box-solid-variant(@gray-light, #444);
     }
     &.box-primary {
       .box-solid-variant(@light-blue);
@@ -193,7 +194,6 @@
   > .ion,
   .box-title {
     display: inline-block;
-    font-size: 18px;
     margin: 0;
     line-height: 1;
   }
@@ -384,7 +384,7 @@
       }
 
       .label {
-        background: @gray-lte !important;
+        background: @gray-light !important;
       }
     }
   }
