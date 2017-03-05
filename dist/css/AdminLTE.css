@@ -2280,6 +2280,16 @@ a:focus {
   background-color: #f2f2f2;
   color: #ff2c77;
 }
+.btn-profile {
+  background-color: #ffffff;
+  border-color: #f2f2f2;
+}
+.btn-profile:hover,
+.btn-profile:active,
+.btn-profile.hover {
+  background-color: #ff2c77;
+  color: #ffffff;
+}
 .btn-success {
   background-color: #00a65a;
   border-color: #008d4c;
