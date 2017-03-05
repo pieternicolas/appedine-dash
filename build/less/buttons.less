@@ -71,14 +71,28 @@
 .btn-primary {
   background-color: @brand-primary;
   border-color:@brand-primary;
+  color: #fff;
+  border-radius: 30px;
   &:hover, &:active, &.hover {
-    background-color: darken(#fff, 5%);
+    background-color: @gray-light;
     color: @brand-primary;
+    border-color: @brand-primary;
+  }
+}
+
+.btn-secondary {
+  background-color: lighten(@brand-primary, 40%);
+  color: @brand-primary;
+  border-radius: 30px;
+  &:hover, &:active, &.hover {
+    background-color: @brand-primary;
+    color: @white;
   }
 }
 
 .btn-profile {
   background-color: @white;
+  color: @brand-primary;
   border-color: darken(@white, 5%);
   &:hover, &:active, &.hover {
     background-color: @brand-primary;
@@ -86,35 +100,23 @@
   }
 }
 
-.btn-success {
-  background-color: @green;
-  border-color: darken(@green, 5%);
+.btn-archive {
+  background-color: @gray-light;
+  color: @black;
+  border-radius: 30px;
   &:hover, &:active, &.hover {
-    background-color: darken(@green, 5%);
+    background-color: @brand-primary;
+    color: @white;
   }
 }
 
-.btn-info {
-  background-color: @aqua;
-  border-color: darken(@aqua, 5%);
+.btn-plain {
+  background-color: none;
+  color: @gray;
+  border-radius: 30px;
   &:hover, &:active, &.hover {
-    background-color: darken(@aqua, 5%);
-  }
-}
-
-.btn-danger {
-  background-color: @red;
-  border-color: darken(@red, 5%);
-  &:hover, &:active, &.hover {
-    background-color: darken(@red, 5%);
-  }
-}
-
-.btn-warning {
-  background-color: @yellow;
-  border-color: darken(@yellow, 5%);
-  &:hover, &:active, &.hover {
-    background-color: darken(@yellow, 5%);
+    background-color: @gray-light;
+    color: @brand-primary;
   }
 }
 

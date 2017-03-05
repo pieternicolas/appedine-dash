@@ -24,10 +24,7 @@
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../dist/css/skins/skin-black.min.css">
 
-  <!-- Vue main app -->
-  <script src="../node_modules/vue/dist/vue.min.js"></script>
-  <!-- Vue resources -->
-  <script src="../node_modules/vue-router/dist/vue-router.min.js"></script>
+  
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,7 +34,7 @@
   <![endif]-->
 </head>
 <body class="hold-transition skin-black layout-top-nav">
-<div class="wrapper">
+<div class="wrapper" id="main">
 
   <header class="main-header">
     <nav class="navbar navbar-static-top">
@@ -60,9 +57,9 @@
                 <li><a href="#">Something else here</a></li>
               </ul>
             </li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">My Bookings</a></li>
-            <li class="active"><a href="requests.html">My Requests</a></li>
+            <li class=""><a href="#">Profile</a></li>
+            <li class=""><a href="#">My Bookings</a></li>
+            <li class=""><a href="requests.html">My Requests</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -133,77 +130,129 @@
     </nav>
   </header>
 
-<!-- Full Width Column -->
-  <div class="content-wrapper" id="app">
-    <div class="container">
-      <!-- Main content -->
-      <section class="content col-sm-10">
-        <h1 class="col-sm-12">
-          My requests
-        </h1>
-        <ul class="nav nav-tabs col-sm-10">
-          <li role="request-list">
-            <a href="#">All</a>
-          </li>
-          <li role="request-list">
-            <a href="#">Pending</a>
-          </li>
-          <li role="request-list">
-            <a href="#">Archived</a>
-          </li>
-        </ul>
 
-        <div class="box col-sm-10 request">
-          <div class="col-sm-8 box-header">
-            <h3>
-              Need a chefs for today's dinner
-            </h3>
-            <p>
-              You have a skillet that come from your mom, and before that your grandma, and now has fallen into your hands ...
-            </p>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1">
-              <div class="request-view">
-                <a href="request-view.html" class="btn btn-secondary text-uppercase ">View new bids</a>
+  <!-- Full Width Column -->
+  <div class="content-wrapper">
+    <div class="container">
+      <!-- Content Header (Page header) -->
+      <section class="content-header col-lg-8">
+        <div >
+          <div class="box box-default">
+            <div class="box-header">
+              <h1 class="box-title">Welcome to AppeDine, Julia</h1>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
               </div>
-              <div class="request-action">
-                <a href="#"><i class="fa fa-files-o fa-lg"></i></a>
-                <a href="#"><i class="fa fa-pencil fa-lg"></i></a>
-                <a href="#"><i class="fa fa-archive fa-lg"></i></a>
-                <a href="#"><i class="fa fa-trash-o fa-lg"></i></a>
-              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              Create request to find best chefs with menus and dishes that matches your criterias. Fill in the form and create request. You can also invite chefs.
+            </div>
+            <!-- /.box-body -->
           </div>
-        </div>
-        <div class="box col-sm-10 request">
-          <div class="col-sm-8">
-            <h3>
-              Bbq Grilling Versus Smoking The Great Debate
-            </h3>
-            <p>
-              You may be a person who loves to cook. You absolutely love to spend time in your kitchen. As a result, you like to outfit your kitchen with the latest…
-            </p>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1">
-              <div class="request-view">
-                <a href="#" class="btn btn-archive text-uppercase ">Archived</a>
-              </div>
-          </div>
-          <div class="overlay"></div>
+          <!-- /.box -->
         </div>
       </section>
-      <div class="col-sm-2">
-        <a href="request-create.html" class="btn btn-default">Create request</a>
-      </div>
+
+      <!-- Main content -->
+      <section class="content col-lg-9">
+        <h1 class="col-sm-12">
+          Create new request
+        </h1>
+        <form>
+          <div class="form-group col-sm-12">
+            <label class="text-uppercase">Title</label>
+            <input type="text" class="form-control" placeholder="Need a chef for todays dinner">
+          </div>
+
+          <div class="form-group col-sm-12">
+            <label class="text-uppercase">Description</label>
+            <textarea class="form-control" rows="3" placeholder="Describe as much as possible what you need"></textarea>
+          </div>
+
+          <div class="form-group col-sm-6">
+            <label class="text-uppercase">Date:</label>
+            <div class="input-group date">
+              <input type="text" class="form-control pull-right" id="datepicker" placeholder="When chef is needed">
+              <div class="input-group-addon">
+                <i class="fa fa-calendar"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group col-sm-6">
+            <label class="text-uppercase">Cuisines</label>
+            <select class="form-control select2" multiple="multiple" data-placeholder="Select multiple cuisines" style="width: 100%;">
+              <option>Placeholder</option>
+              <option>Placeholder</option>
+              <option>Placeholder</option>
+              <option>Placeholder</option>              
+            </select>
+          </div>
+
+          <span class="hidden-xs">&nbsp;</span>
+
+          <div class="form-group col-sm-6">
+            <label class="text-uppercase">Total Pax</label>
+            <input type="number" class="form-control" placeholder="Number of guests" min="0">
+          </div>
+
+          <div class="form-group col-sm-6">
+            <label class="text-uppercase">Location</label>
+            <select class="form-control select2" style="width: 100%;">
+              <option selected="selected">Alabama</option>
+              <option>Alaska</option>
+              <option>California</option>
+              <option>Delaware</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Washington</option>
+            </select>
+          </div>
+
+          <div class="form-group col-sm-6">
+            <label class="text-uppercase">Budget per pax</label>
+            <div class="input-group">
+              <span class="input-group-addon">$</span>
+              <input type="number" class="form-control" placeholder="How much would you pay per person" min="0">
+              <span class="input-group-addon">.00</span>
+            </div>
+          </div>
+
+          <div class="form-group col-sm-6">
+            <label class="text-uppercase">Budget per hour</label>
+            <div class="input-group">
+              <span class="input-group-addon">$</span>
+              <input type="number" class="form-control" placeholder="How much would you pay per hour" min="0">
+              <span class="input-group-addon">.00</span>
+            </div>
+          </div>
+
+          <div class="form-group col-sm-6">
+            <div class="input-group">
+              <input type="submit" value="Create request" class="btn btn-default text-uppercase">
+            </div>
+          </div>
+        </form>
+      </section>
       <!-- /.content -->
     </div>
     <!-- /.container -->
   </div>
   <!-- /.content-wrapper -->
+  
 </div>
 <!-- ./wrapper -->
 
+<!-- Vue main app -->
+<script src="../node_modules/vue/dist/vue.min.js"></script>
+<!-- Vue resources -->
+<script src="../node_modules/vue-router/dist/vue-router.min.js"></script>
+<!-- App js -->
+<script src="app.js"></script>
 
-  <!-- jQuery 2.2.3 -->
+<!-- jQuery 2.2.3 -->
 <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="../bootstrap/js/bootstrap.min.js"></script>
@@ -215,7 +264,6 @@
 <script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- Select2 -->
 <script src="../plugins/select2/select2.full.min.js"></script>
-
 
 <!-- AdminLTE App -->
 <script src="../dist/js/app.min.js"></script>

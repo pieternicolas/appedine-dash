@@ -117,10 +117,10 @@
               <!-- Menu Footer-->
               <li class="user-footer">
               <div class="pull-left">
-                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                <a href="#" class="btn btn-profile btn-flat">Profile</a>
               </div>
               <div class="pull-right">
-                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                <a href="#" class="btn btn-profile btn-flat">Sign out</a>
               </div>
               </li>
             </ul>
@@ -133,71 +133,65 @@
     </nav>
   </header>
 
-<!-- Full Width Column -->
+  <!-- Full Width Column -->
   <div class="content-wrapper" id="app">
     <div class="container">
       <!-- Main content -->
-      <section class="content col-sm-10">
-        <h1 class="col-sm-12">
-          My requests
+      <section class="content col-sm-9">
+        <h1>
+          Checkout
         </h1>
-        <ul class="nav nav-tabs col-sm-10">
-          <li role="request-list">
-            <a href="#">All</a>
-          </li>
-          <li role="request-list">
-            <a href="#">Pending</a>
-          </li>
-          <li role="request-list">
-            <a href="#">Archived</a>
-          </li>
-        </ul>
-
-        <div class="box col-sm-10 request">
+        <div class="col-sm-12 box">
+          <div class="col-sm-2">
+            <h5>
+              Logged as
+            </h5>
+            <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" height="40px">
+            <span >
+              Julia Doe
+              <a href="#">Log out</a>
+            </span>
+          </div>
           <div class="col-sm-8">
-            <h3>
-              Need a chefs for today's dinner
-            </h3>
-            <p>
-              You have a skillet that come from your mom, and before that your grandma, and now has fallen into your hands ...
-            </p>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1">
-            <div class="col-sm-12">
-              <a href="#" class="btn btn-default text-uppercase ">View new bids</a>
-            </div>
-            <div class="col-sm-12">
-              <a href="#"><i class="fa fa-files-o fa-lg"></i></a>
-              <a href="#"><i class="fa fa-pencil fa-lg"></i></a>
-              <a href="#"><i class="fa fa-archive fa-lg"></i></a>
-              <a href="#"><i class="fa fa-trash-o fa-lg"></i></a>
+            <div class="form-group">
+              <label>
+                <h5>
+                  Saved cards
+                </h5>
+              </label>
+              <select class="form-control">
+                <option>Card 1</option>
+                <option>Card 2</option>
+              </select>
             </div>
           </div>
+          <div class="col-sm-2">
+            <a href="#" class="btn btn-primary">
+              Add new card
+            </a>
+          </div>
+          &nbsp;
         </div>
-        <div class="box col-sm-10">
-          <div class="col-sm-8">
-            <h3>
-              Bbq Grilling Versus Smoking The Great Debate
-            </h3>
-            <p>
-              You may be a person who loves to cook. You absolutely love to spend time in your kitchen. As a result, you like to outfit your kitchen with the latest…
-            </p>
+
+        <div class="box col-sm-12">
+          <h5 class="col-sm-12">
+            Payment information
+          </h5>
+          <div class="form-group col-sm-6">
+            <label>Card Number</label>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="1234 5678 9012 3456">
+              <div class="input-group-addon">
+                <i class="fa fa-credit-card-alt"></i>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-3 col-sm-offset-1">
-            
-              <a href="#" class="btn btn-default text-uppercase ">View new bids</a>
-            
-              <a href="#"><i class="fa fa-files-o fa-lg"></i></a>
-              <a href="#"><i class="fa fa-pencil fa-lg"></i></a>
-              <a href="#"><i class="fa fa-archive fa-lg"></i></a>
-              <a href="#"><i class="fa fa-trash-o fa-lg"></i></a>
-            
-          </div>
+          &nbsp;
         </div>
       </section>
-      <div class="col-sm-2">
-          <a href="#" class="btn btn-default">Create request</a>
-        </div>
+      <section class="content col-sm-3">
+        asdf
+      </section>
       <!-- /.content -->
     </div>
     <!-- /.container -->

@@ -1,8 +1,5 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+var app = new Vue({
 
-Vue.use(VouRouter)
+	el: "#demo"
 
-new Vue ({
-	el: '#app'
 })
