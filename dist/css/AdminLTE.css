@@ -246,7 +246,13 @@ a:focus {
 .main-header .navbar-right {
   float: right;
 }
-
+@media (max-width: 991px) {
+  .main-header .navbar-custom-menu a,
+  .main-header .navbar-right a {
+    color: inherit;
+    background: transparent;
+  }
+}
 @media (max-width: 767px) {
   .main-header .navbar-right {
     float: none;
@@ -1569,17 +1575,22 @@ a:focus {
 .box.box-primary {
   border-top-color: #ff2c77;
 }
-.box.box-info {
-  border-top-color: #00c0ef;
+.box.box-menu {
+  background-color: #343740;
+  color: #ffffff;
+  padding-top: 0;
 }
-.box.box-danger {
-  border-top-color: #dd4b39;
+.box.box-menu .view-menu {
+  padding: 10px;
 }
-.box.box-warning {
-  border-top-color: #f39c12;
+.box.box-menu .view-menu h5 {
+  font-weight: bold;
 }
-.box.box-success {
-  border-top-color: #00a65a;
+.box.box-menu .view-menu .view-menu-content {
+  font-size: 13px;
+}
+.box.box-menu .view-menu .view-menu-price {
+  font-size: 20px;
 }
 .box.box-default {
   border-top-color: none;

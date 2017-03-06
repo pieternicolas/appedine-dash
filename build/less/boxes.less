@@ -16,17 +16,22 @@
   &.box-primary {
     border-top-color: @primary;
   }
-  &.box-info {
-    border-top-color: @aqua;
-  }
-  &.box-danger {
-    border-top-color: @red;
-  }
-  &.box-warning {
-    border-top-color: @yellow;
-  }
-  &.box-success {
-    border-top-color: @green;
+  &.box-menu {
+    background-color: @gray;
+    color: @white;
+    padding-top: 0;
+    .view-menu {
+      padding: 10px;
+      h5 {
+        font-weight:bold;
+      }
+      .view-menu-content {
+        font-size: 13px;
+      }
+      .view-menu-price {
+        font-size: 20px;
+      }
+    }
   }
   &.box-default {
     border-top-color: none;
