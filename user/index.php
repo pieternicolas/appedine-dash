@@ -1,44 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Appedine</title>
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Select2 -->
-  <link rel="stylesheet" href="plugins/select2/select2.min.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
 
+<?php include __DIR__ . '/include/header-home.php'; ?>
 
-  <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-  <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="dist/css/skins/skin-black.min.css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
-<body class="hold-transition skin-black layout-top-nav">
+<body>
   <div class="wrapper">
     <div class="container top">
         <!-- Navigation -->
         <nav class="navbar">
           <div class="container">
             <a class="navbar-brand" href="index.html">
-              <img src="dist/img/Logo.png" height="38px">
+              <img src="../dist/img/Logo.png" height="38px">
               <div class="mini-logo text-capitalize">
                 chef-on-demand
               </div>
@@ -65,26 +35,22 @@
                   <a href="#">log in</a>
                 </li>
                 <li>
-                  <a href="#" class="btn btn-primary">become chef</a>
+                  <a href="#" class="btn btn-default">become chef</a>
                 </li>
               </ul>
               <!-- Navigation right (end) -->
+              &nbsp;
             </div>
           </div>
         </nav>
         <!-- Navigation (end) -->
         <div class="container-fluid text-uppercase">
           <div class="row heading col-sm-8 col-sm-offset-2">
-            discover &amp; book
-            
+            discover &amp; book <br class="hidden-xs">
+            <span class="heading-pink">chefs in your area</span>
+            <div><a href="user/signup.php" class="btn btn-default request">create request</a></div>
           </div>
-          <div class="row heading-pink col-sm-8 col-sm-offset-2">
-            chefs in your area
-            </div>
           
-          <div class="row request col-sm-4 col-sm-offset-4">
-            <a href="#" class="btn request-btn">create request</a>
-          </div>
         </div>
       </div>
 
@@ -102,7 +68,7 @@
 
         <div class="row profile-row">
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="dist/img/placeholder.svg">
+            <img class="profile-pic" src="../dist/img/placeholder.svg">
             <div class="row profile-name text-uppercase">
               william wheeler
             </div>
@@ -114,7 +80,7 @@
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="dist/img/placeholder.svg">
+            <img class="profile-pic" src="../dist/img/placeholder.svg">
             <div class="row profile-name text-uppercase">
               blanche gonzalez
             </div>
@@ -126,7 +92,7 @@
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="dist/img/placeholder.svg" >
+            <img class="profile-pic" src="../dist/img/placeholder.svg" >
             <div class="row profile-name text-uppercase">
               scott estrada
             </div>
@@ -138,7 +104,7 @@
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="dist/img/placeholder.svg">
+            <img class="profile-pic" src="../dist/img/placeholder.svg">
             <div class="row profile-name text-uppercase">
               celia paul
             </div>
@@ -170,7 +136,7 @@
 
         <div class="row how-row">
           <div class="col-sm-4 how">
-            <img class="how-pic" src="dist/img/content.png">
+            <img class="how-pic" src="../dist/img/content.png">
             <div class="how-heading text-capitalize">
               create request
             </div>
@@ -179,7 +145,7 @@
             </div>
           </div>
           <div class="col-sm-4 how">
-            <img class="how-pic" src="dist/img/auction.png">
+            <img class="how-pic" src="../dist/img/auction.png">
             <div class="how-heading text-capitalize">
               get bids
             </div>
@@ -188,7 +154,7 @@
             </div>
           </div>
           <div class="col-sm-4 how">
-            <img class="how-pic" src="dist/img/chef.png">
+            <img class="how-pic" src="../dist/img/chef.png">
             <div class="how-heading text-capitalize">
               choose chef
             </div>
@@ -203,60 +169,12 @@
 
       <!-- Footer -->
       <footer id="footer" class="footer row container-fluid">
-        
+        <?php include __DIR__ . '/include/footer-home.php'; ?>
       </footer>
       <!-- Footer (end) --> 
-
-      <script>
-        $(document).ready(function(){ 
-          $.get("include/footer-homepage.html", function(data) {
-            $("#footer").html(data);
-          });
-        }); 
-      </script>
   
   </div>
   <!-- /.content-wrapper -->
 </div>
 <!-- ./wrapper -->
-
-
-  <!-- jQuery 2.2.3 -->
-<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<!-- SlimScroll -->
-<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<!-- FastClick -->
-<script src="plugins/fastclick/fastclick.js"></script>
-<!-- bootstrap datepicker -->
-<script src="plugins/datepicker/bootstrap-datepicker.js"></script>
-<!-- Select2 -->
-<script src="plugins/select2/select2.full.min.js"></script>
-
-
-<!-- AdminLTE App -->
-<script src="../dist/js/app.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="../dist/js/demo.js"></script>
-
-<script>
-  $(function () {
-    //Initialize Select2 Elements
-    $(".select2").select2();
-
-    //Date picker
-    $('#datepicker').datepicker({
-      autoclose: true
-    });
-  });
-
-
-  $(document).ready(function(){ 
-    $.get("include/header-dash.html", function(data) {
-      $("#").html(data);
-    });
-  }); 
-</script>
-</body>
-</html>
+<?php include __DIR__ . '/include/footer.php'; ?>

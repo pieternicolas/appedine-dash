@@ -6,8 +6,14 @@ module.exports = function (grunt) {
   grunt.initConfig({
     watch: {
       // If any .less file changes in directory "build/less/" run the "less"-task.
-      files: ["build/less/*.less", "build/less/skins/*.less", "dist/js/app.js"],
-      tasks: ["less", "uglify"]
+      less: {
+        files: ["build/less/*.less", "build/less/skins/*.less", "dist/js/app.js"],
+        tasks: ["less", "uglify"]
+      },
+      php: {
+        files: ["user/*.php"],
+        tasks: ["browserSync"]
+      }
     },
     // "less"-task configuration
     // This task will compile all less files upon saving to create both AdminLTE.css and AdminLTE.min.css
@@ -128,6 +134,40 @@ module.exports = function (grunt) {
     // for them
     clean: {
       build: ["build/img/*"]
+    },
+
+    browserSync: {
+        dev: {
+            bsFiles: {
+                src: '/'
+            },
+            options: {
+                proxy: '127.0.0.1:8010', //our PHP server
+                port: 8080, // our new port
+                open: true,
+                watchTask: true
+            }
+        }
+    },
+
+    php: {
+        dev: {
+            options: {
+              base: '',
+              port: 8010,
+                keepalive: true,
+                open: true
+            }
+        }
+    },
+
+    concurrent: {
+        options: {
+            logConcurrentOutput: true
+        },
+        dev: {
+            tasks: ["php","watch:less","watch:php"]
+        }
     }
   });
 
@@ -151,10 +191,21 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-csslint');
   // Lint Bootstrap
   grunt.loadNpmTasks('grunt-bootlint');
+  // Grunt php
+  grunt.loadNpmTasks('grunt-php');
+  // Browser sync
+  grunt.loadNpmTasks('grunt-browser-sync');
+  // Grunt concurrent
+  grunt.loadNpmTasks('grunt-concurrent');
 
   // Linting task
   grunt.registerTask('lint', ['jshint', 'csslint', 'bootlint']);
 
   // The default task (running "grunt" in console) is "watch"
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['watch','server']);
+
+  // Live server php
+  grunt.registerTask('server', ['php','browserSync']);
+
+  grunt.registerTask("dev", ['concurrent:dev']);
 };
