@@ -73,8 +73,8 @@
   border-color:@brand-primary;
   color: #fff;
   border-radius: 30px;
-  &:hover, &:active, &.hover {
-    background-color: @gray-light;
+  &:hover, &:active, &.hover, &:focus {
+    background-color: #f2f2f2;
     color: @brand-primary;
     border-color: @brand-primary;
   }
@@ -111,11 +111,11 @@
 }
 
 .btn-plain {
-  background-color: none;
+  background-color: @white;
   color: @gray;
   border-radius: 30px;
   &:hover, &:active, &.hover {
-    background-color: @gray-light;
+    background-color: darken(white, 5%);
     color: @brand-primary;
   }
 }

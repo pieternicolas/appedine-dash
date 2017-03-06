@@ -202,7 +202,7 @@ module.exports = function (grunt) {
   grunt.registerTask('lint', ['jshint', 'csslint', 'bootlint']);
 
   // The default task (running "grunt" in console) is "watch"
-  grunt.registerTask('default', ['watch','server']);
+  grunt.registerTask('default', ['watch']);
 
   // Live server php
   grunt.registerTask('server', ['php','browserSync']);

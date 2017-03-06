@@ -11,6 +11,9 @@
 <!-- Select2 -->
 <script src="../../plugins/select2/select2.full.min.js"></script>
 
+<!-- AdminLTE App -->
+<script src="../dist/js/app.min.js"></script>
+
 <script>
   $(function () {
     //Initialize Select2 Elements

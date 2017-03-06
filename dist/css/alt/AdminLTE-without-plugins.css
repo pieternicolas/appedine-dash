@@ -955,7 +955,6 @@ a:focus {
   margin-right: 10px;
 }
 .dropdown-menu > li > a:hover {
-  background-color: #f2f2f2;
   color: #ff2c77;
 }
 .dropdown-menu > .divider {
@@ -2277,7 +2276,8 @@ a:focus {
 }
 .btn-primary:hover,
 .btn-primary:active,
-.btn-primary.hover {
+.btn-primary.hover,
+.btn-primary:focus {
   background-color: #f2f2f2;
   color: #ff2c77;
   border-color: #ff2c77;
@@ -2316,7 +2316,7 @@ a:focus {
   color: #ffffff;
 }
 .btn-plain {
-  background-color: none;
+  background-color: #ffffff;
   color: #343740;
   border-radius: 30px;
 }
@@ -2469,7 +2469,6 @@ a:focus {
 .nav > li > a:active,
 .nav > li > a:focus {
   color: #ff2c77;
-  background: #f2f2f2;
 }
 /* NAV PILLS */
 .nav-pills > li > a {
@@ -3668,7 +3667,7 @@ table.text-center th {
   color: #d81b60 !important;
 }
 .link-muted {
-  color: #a6a6a6;
+  color: #a5a5a5;
 }
 .link-muted:hover,
 .link-muted:focus {
