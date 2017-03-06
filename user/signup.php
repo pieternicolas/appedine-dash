@@ -62,10 +62,10 @@
 				or use social media
 			</div>
 			<div class="col-sm-6">
-				<a href="#" class="btn btn-google"><i class="fa fa-lg fa-google-plus"></i> Sign Up with Google</a>
+				<a href="#" class="btn-google btn"><i class="fa fa-lg fa-google-plus"></i> Sign Up with Google</a>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" class="btn btn-facebook"><i class="fa fa-lg fa-facebook-official"></i> Sign Up with Facebook</a>
+				<a href="#" class="btn-facebook btn"><i class="fa fa-lg fa-facebook-official"></i> Sign Up with Facebook</a>
 			</div>
 		</div>
 	</div>

@@ -939,7 +939,7 @@ a:focus {
   margin-right: 10px;
 }
 .dropdown-menu > li > a:hover {
-  background-color: #e1e3e9;
+  background-color: @gray-light;
   color: #333;
 }
 .dropdown-menu > .divider {

@@ -17,13 +17,13 @@
   <!-- bootstrap datepicker -->
   <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
 
-  <!-- Homepage style -->
-  <link rel="stylesheet" href="../../dist/css/homepage.css">
-
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
 
   <link rel="stylesheet" href="../../dist/css/skins/skin-black.min.css">
+
+  <!-- Homepage style -->
+  <link rel="stylesheet" href="../../dist/css/homepage.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load.
   <link rel="stylesheet" href="../../dist/css/skins/skin-black.min.css"> -->
