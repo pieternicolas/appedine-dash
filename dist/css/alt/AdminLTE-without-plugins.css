@@ -1579,6 +1579,12 @@ a:focus {
   background-color: #343740;
   color: #ffffff;
   padding-top: 0;
+  height: 390px;
+}
+@media (max-width: 767px) {
+  .box.box-menu {
+    height: 100%;
+  }
 }
 .box.box-menu .view-menu {
   padding: 10px;

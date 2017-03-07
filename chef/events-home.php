@@ -13,20 +13,20 @@
 
 		<!-- Main content -->
 		<section class="content">
-			<div class="row">
+			<div class="row col-lg-10">
 				<div class="col-sm-3">
 					<div class="box box-menu">
 						<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
 						<div class="view-menu">
-							<h5>Dishes Friday</h5>
-							<h6>Italian</h6>
-							<h6>Every Friday</h6>
-							<p class="view-menu-content">There are very few appliances in my kitchen that can compete with my grill. </p>
+							<h5>Contigo</h5>
+							<h6>Mueller</h6>
+							
+							<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
 							<p>
-								<i class="fa fa-usd"></i><span class="view-menu-price">117</span><br class="hidden-xs">
+								<i class="fa fa-usd"></i><span class="view-menu-price">96</span><br class="hidden-xs">
 								per person
 							</p>
-							<h6>3 course menu | 6 people min</h6>
+							<h6>8-30 guests | 2 hours</h6>
 						</div>
 					</div>
 				</div>
@@ -34,15 +34,15 @@
 					<div class="box box-menu">
 						<img src="../dist/img/chef-menu-2.jpg" style="width: 100%; height: 125px;">
 						<div class="view-menu">
-							<h5>Western Fine Dining</h5>
-							<h6>Western</h6>
-							<h6>02 Feb - 12 Mar</h6>
-							<p class="view-menu-content">There are very few appliances in my kitchen that can compete with my grill. </p>
+							<h5>Quick And Easy Lunches For The Cooking Challenged</h5>
+							<h6>Mueller</h6>
+							
+							<p class="view-menu-content">Choosing A Quality Cookware Set</p>
 							<p>
 								<i class="fa fa-usd"></i><span class="view-menu-price">138</span><br class="hidden-xs">
 								per person
 							</p>
-							<h6>5 course menu | 6 people min</h6>
+							<h6>8 - 30 guests | 5 hours</h6>
 						</div>
 					</div>
 				</div>
@@ -50,20 +50,21 @@
 					<div class="box box-menu">
 						<img src="../dist/img/chef-menu-3.jpg" style="width: 100%; height: 125px;">
 						<div class="view-menu">
-							<h5>Vegetarian</h5>
-							<h6>Vegetarian</h6>
-							<h6>15 Feb - 28 Feb</h6>
-							<p class="view-menu-content">There are very few appliances in my kitchen that can compete with my grill. </p>
+							<h5>The Almighty Beer Can Chicken</h5>
+							<h6>Mueller</h6>
+							
+							<p class="view-menu-content">Barbecue Party Tips For A Truly Amazing Event</p>
 							<p>
 								<i class="fa fa-usd"></i><span class="view-menu-price">93</span><br class="hidden-xs">
 								per person
 							</p>
-							<h6>Choose any 6 dishes | 6 people min</h6>
+							<h6>8 - 30 guests | 3 hours</h6>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3 divider">&nbsp;</div>
-
+			</div>
+			<div class="row col-lg-10">
+				
 			</div>
 		</section>
 		<!-- /.content -->
