@@ -2,7 +2,7 @@
 //===============
 
 //Changes the color and the hovering properties of the navbar
-.navbar-variant(@color; @font-color: rgba(255, 255, 255, 0.8); @hover-color: #f6f6f6; @hover-bg: rgba(0, 0, 0, 0.1)) {
+.navbar-variant(@color; @font-color: rgba(255, 255, 255, 0.8); @hover-color: @brand-primary; @hover-bg: @gray-light) {
   background-color: @color;
   //Navbar links
   .nav > li > a {
@@ -120,7 +120,7 @@
   .wrapper,
   .main-sidebar,
   .left-side {
-    background-color: @white;
+    background-color: @gray;
   }
   //User Panel (resides in the sidebar)
   .user-panel {
@@ -132,8 +132,8 @@
   .sidebar-menu > li {
     //Section Headning
     &.header {
-      color: lighten(@sidebar-dark-bg, 20%);
-      background: darken(@sidebar-dark-bg, 4%);
+      color: @brand-primary;
+      background: @gray;
     }
     //links
     > a {
@@ -143,7 +143,6 @@
     &:hover > a, &.active > a {
       color: @sidebar-dark-hover-color;
       background: @sidebar-dark-hover-bg;
-      border-left-color: @link-hover-border-color;
     }
     //First Level Submenu
     > .treeview-menu {
@@ -171,32 +170,33 @@
   }
   //The sidebar search form
   .sidebar-form {
-    .border-radius(3px);
-    border: 1px solid lighten(@sidebar-dark-bg, 10%);
+    border-radius:8px;
+    border: 1px solid @gray-light;
     margin: 10px 10px;
+    width: 300px;
     input[type="text"], .btn {
       box-shadow: none;
-      background-color: lighten(@sidebar-dark-bg, 10%);
+      background-color: @white;
       border: 1px solid transparent;
       height: 35px;
       //.transition(all @transition-speed @transition-fn);
     }
     input[type="text"] {
       color: #666;
-      .border-radius(2px, 0, 2px, 0);
       &:focus,
       &:focus + .input-group-btn .btn {
         background-color: #fff;
         color: #666;
+        border: 1px solid @brand-primary;
       }
       &:focus + .input-group-btn .btn {
+        border: 1px solid @brand-primary;
         border-left-color: #fff;
 
       }
     }
     .btn {
       color: #999;
-      .border-radius(0, 2px, 0, 2px);
     }
   }
 }

@@ -847,29 +847,29 @@ a:focus {
   margin: 0;
 }
 .control-sidebar-dark {
-  color: #b8c7ce;
+  color: #f2f2f2;
 }
 .control-sidebar-dark,
 .control-sidebar-dark + .control-sidebar-bg {
-  background: #222d32;
+  background: #343740;
 }
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs {
-  border-bottom: #1c2529;
+  border-bottom: #2d3038;
 }
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a {
-  background: #181f23;
-  color: #b8c7ce;
+  background: #292b32;
+  color: #f2f2f2;
 }
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a,
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a:hover,
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a:focus {
-  border-left-color: #141a1d;
-  border-bottom-color: #141a1d;
+  border-left-color: #24262c;
+  border-bottom-color: #24262c;
 }
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a:hover,
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a:focus,
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a:active {
-  background: #1c2529;
+  background: #2d3038;
 }
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li > a:hover {
   color: #fff;
@@ -878,7 +878,7 @@ a:focus {
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li.active > a:hover,
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li.active > a:focus,
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs > li.active > a:active {
-  background: #222d32;
+  background: #343740;
   color: #fff;
 }
 .control-sidebar-dark .control-sidebar-heading,
@@ -886,10 +886,10 @@ a:focus {
   color: #fff;
 }
 .control-sidebar-dark .control-sidebar-menu > li > a:hover {
-  background: #1e282c;
+  background: #ff2c77;
 }
 .control-sidebar-dark .control-sidebar-menu > li > a .menu-info > p {
-  color: #b8c7ce;
+  color: #f2f2f2;
 }
 .control-sidebar-light {
   color: #5e5e5e;
@@ -2232,6 +2232,7 @@ a:focus {
   -moz-box-shadow: none;
   box-shadow: none;
   border-width: 1px;
+  background-color: #f2f2f2;
 }
 .btn:active {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
@@ -2265,6 +2266,8 @@ a:focus {
   color: #fff;
   border-color: #ff2c77;
   border-radius: 30px;
+  padding: 15px;
+  font-weight: bold;
 }
 .btn-default:hover,
 .btn-default:active,
@@ -2317,7 +2320,7 @@ a:focus {
 .btn-archive:hover,
 .btn-archive:active,
 .btn-archive.hover {
-  background-color: #ff2c77;
+  background-color: #343740;
   color: #ffffff;
 }
 .btn-plain {

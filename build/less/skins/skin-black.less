@@ -41,10 +41,9 @@
       }
     }
     > .logo {
-      .logo-variant(#fff; #333);
-      border-right: 1px solid #eee;
+      .logo-variant(@gray; #333);
       @media (max-width: @screen-header-collapse) {
-        .logo-variant(#222; #fff);
+        .logo-variant(@gray; #333);
         border-right: none;
       }
     }
