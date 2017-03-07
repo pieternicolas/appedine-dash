@@ -173,7 +173,10 @@
     border-radius:8px;
     border: 1px solid @gray-light;
     margin: 10px 10px;
-    width: 300px;
+    width: 350px;
+    @media (max-width: 767px) {
+      width: 100px;
+    }
     input[type="text"], .btn {
       box-shadow: none;
       background-color: @white;

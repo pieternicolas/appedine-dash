@@ -129,7 +129,12 @@
   border-radius: 8px;
   border: 1px solid #f2f2f2;
   margin: 10px 10px;
-  width: 300px;
+  width: 350px;
+}
+@media (max-width: 767px) {
+  .skin-black .sidebar-form {
+    width: 100px;
+  }
 }
 .skin-black .sidebar-form input[type="text"],
 .skin-black .sidebar-form .btn {

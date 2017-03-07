@@ -31,7 +31,7 @@
 			<div class="row">
 				<div class="box col-sm-10">
 					<div class="col-sm-6">
-						<h4>Need a chef for todays dinner &nbsp;<span class="btn btn-flat btn-xs">Cost per pax</span></h4>
+						<h4>Need a chef for todays dinner &nbsp;<span class="btn btn-flat btn-xs">Cost per pax = &nbsp; <i class="fa fa-usd"></i> 40,00 </span></h4>
 						<p>You have a skillet that came from your mom, and before that your grandma, and has now fallen into your hands… </p>
 					</div>
 					<div class="col-sm-2 col-sm-offset-2">
@@ -41,12 +41,12 @@
 				</div>
 				<div class="box col-sm-10">
 					<div class="col-sm-6">
-						<h4>Barbeque Techniques Two Methods To Consider &nbsp;<span class="btn btn-flat btn-xs">Cost per hour</span></h4>
+						<h4>Barbeque Techniques Two Methods To Consider &nbsp;<span class="btn btn-flat btn-xs">Cost per hour = &nbsp; <i class="fa fa-usd"></i>20,00</span></h4>
 						<p>You have a skillet that came from your mom, and before that your grandma, and has now fallen into your hands… </p>
 					</div>
 					<div class="col-sm-2 col-sm-offset-2">
 						<a href="#" class="btn btn-primary btn-block">Chat</a>
-						<a href="#" class="btn btn-archive btn-block">Withdraw</a>
+						<a href="#" class="btn btn-archive btn-block">Withdraw bid</a>
 					</div>
 				</div>
 			</div>

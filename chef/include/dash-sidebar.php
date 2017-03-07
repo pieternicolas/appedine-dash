@@ -6,12 +6,12 @@
 			<ul class="sidebar-menu">
 				<li class="header">&nbsp;</li>
 				<!-- Optionally, you can add icons to the links -->
-				<li class="active"><a href="#"><span>Booking</span></a></li>
+				<li><a href="#"><span>Booking</span></a></li>
 				<li><a href="#"><span>Transaction</span></a></li>
 				<div class="divider">&nbsp;</div>
 				<li><a href="#"><span>Your new job</span></a></li>
 				<li><a href="#"><span>Menus</span></a></li>
-				<li><a href="#"><span>Pop up events</span></a></li>
+				<li><a href="events-home.php"><span>Pop up events</span></a></li>
 				<li><a href="#"><span>Unique spaces</span></a></li>
 				<li><a href="#"><span>My vouchers</span></a></li>
 			</ul>

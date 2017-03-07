@@ -34,7 +34,7 @@
         <h1 class="col-sm-12">
           Create new request
         </h1>
-        <form>
+        <form action="request-all.php">
           <div class="form-group col-sm-12">
             <label class="text-uppercase">Title</label>
             <input type="text" class="form-control" placeholder="Need a chef for todays dinner">
