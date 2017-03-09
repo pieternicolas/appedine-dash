@@ -20,7 +20,7 @@
     background-color: @gray;
     color: @white;
     padding-top: 0;
-    height: 390px;
+    min-height: 390px;
     @media (max-width: 767px) {
       height: 100%;
     }
@@ -35,6 +35,11 @@
       .view-menu-price {
         font-size: 20px;
       }
+    }
+
+    &.inverse {
+      background-color: @gray-light;
+      color: @gray;
     }
   }
   &.box-default {

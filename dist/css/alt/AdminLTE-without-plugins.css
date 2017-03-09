@@ -1606,7 +1606,7 @@ a:focus {
   background-color: #343740;
   color: #ffffff;
   padding-top: 0;
-  height: 390px;
+  min-height: 390px;
 }
 @media (max-width: 767px) {
   .box.box-menu {
@@ -1624,6 +1624,10 @@ a:focus {
 }
 .box.box-menu .view-menu .view-menu-price {
   font-size: 20px;
+}
+.box.box-menu.inverse {
+  background-color: #f2f2f2;
+  color: #343740;
 }
 .box.box-default {
   border-top-color: none;
