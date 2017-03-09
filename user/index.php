@@ -11,7 +11,7 @@
               <a class="navbar-brand" href="index.html">
                 <img src="../dist/img/Logo.png" height="35px">
                 <div class="mini-logo text-capitalize">
-                  chef-on-demand
+                  Events
                 </div>
               </a>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -22,7 +22,7 @@
                 <div class="navbar-left">
                   <ul class="nav navbar-nav">
                     <li>
-                      <a href="#">chefs-on-demand</a>
+                      <a href="#">events</a>
                     </li>
                     <li>
                       <a href="#">how it works</a>
@@ -36,7 +36,7 @@
                     <a href="#">log in</a>
                   </li>
                   <li>
-                    <button href="#" class="btn btn-default text-uppercase">Become Chef</button>
+                    <button href="#" class="btn btn-default text-uppercase">Become a venue partner</button>
                   </li>
                 </ul>
                 <!-- Navigation right (end) -->
@@ -47,96 +47,82 @@
         </header>
         <!-- Navigation (end) -->
         <div class="text-uppercase heading">
-          <div class="row col-sm-8 col-sm-offset-2">
-            <h1>discover &amp; book <br class="hidden-xs">
-            <span class="primary-color">chefs in your area</span></h1>
-            <div class="col-sm-4 col-sm-offset-4"><a href="user/signup.php" class="btn btn-default btn-block">create request</a></div>
+          <div class="col-sm-8 col-sm-offset-2">
+            <h1>Book corporate events<br class="hidden-xs">
+            <span class="primary-color"><b>at distinct venues</b></span></h1>
+          </div>
+          <div class="col-sm-10 col-sm-offset-1">
+            <form class="row">
+              <div class="box">
+                <div class="col-sm-4">
+                  <label>Where</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Location">
+                    <div class="input-group-addon">
+                      <i class="fa fa-location-arrow"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <label>Who</label>
+                  <div class="input-group">
+                    <input type="number" class="form-control" placeholder="Number of guests" min="0">
+                    <div class="input-group-addon">
+                      <i class="fa fa-users"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <label>When</label>
+                  <div class="input-group date">
+                    <input type="text" class="form-control" id="datepicker" placeholder="Choose a date">
+                    <div class="input-group-addon">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="divider col-sm-12">&nbsp;</div>
+                <div class="col-md-2 col-md-offset-5">
+                  <input type="submit" value="Search events" class="btn btn-default text-uppercase">
+                </div>
+                <div style="clear: both;"></div>
+              </div>
+              
+            </form>
           </div>
         </div>
+        &nbsp;
       </div>
       
 
       <!-- Main content -->
       <!-- 1st content row -->
-      <section class="container-fluid content chefs">
+      <section class="container-fluid content events">
         <div class="row content-heading">
           <h1 class="text-capitalize">
-            pro chefs: work with the best
+            Browse events by type
           </h1>
-          <p class="col-sm-8 col-sm-offset-2 text-capitalize">
-            we promote and drive your sales for chef's culinary service / your pop up events / your unique spaces for corporate bookings / food tickets for you f &amp; b promo campaign
-          </p>
         </div>
-
-        <div class="row profile-row">
-          <a href="#" class="col-sm-3 profile">
-            <div class="profile-pic">
-              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
-            </div>
-            <div class="profile-name text-uppercase">
-              william wheeler
-            </div>
-            <div class="profile-quote text-capitalize">
-              microwave cooking is the wave of the future
-            </div>
-            <div class="profile-view">
-              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
-            </div>
-          </a>
-          <a href="#" class="col-sm-3 profile">
-            <div class="profile-pic">
-              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
-            </div>
-            <div class="profile-name text-uppercase">
-              blanche gonzalez
-            </div>
-            <div class="profile-quote text-capitalize">
-              how to cook turkey on natural gas grills
-            </div>
-            <div class="profile-view">
-              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
-            </div>
-          </a>
-          <a href="#" class="col-sm-3 profile">
-            <div class="profile-pic">
-              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
-            </div>
-            <div class="profile-name text-uppercase">
-              scott estrada
-            </div>
-            <div class="profile-quote text-capitalize">
-              beryl cook s art quirky uk artist
-            </div>
-            <div class="profile-view">
-              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
-            </div>
-          </a>
-          <a href="#" class="col-sm-3 profile">
-            <div class="profile-pic">
-              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
-            </div>
-            <div class="profile-name text-uppercase">
-              celia paul
-            </div>
-            <div class="profile-quote text-capitalize">
-              bbq myths getting you down
-            </div>
-            <div class="profile-view">
-              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
-            </div>
-          </a>
-          <div class="profile-all">
-            <a href="#" class="btn btn-default text-uppercase">browse all chefs</a>
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-4">
+            asdf
+          </div>
+          <div class="col-sm-4">
+            asd
+          </div>
+          <div class="col-sm-4">
+            fd
           </div>
         </div>
+        
       </section>
       <!-- 1st content row (end) -->
 
-      <!-- 2nd content row -->
+      <!-- 3rd content row -->
       <div class="container-fluid content chefs-2">
         <div class="row content-heading">
           <h1 class="text-capitalize">
-            how it works
+            Why to book with AppeDine
           </h1>
           <p>
             When it comes to barbequing, there are two main schools of thought for the techniques that you can use.
@@ -144,28 +130,80 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-4 how">
-            <img class="how-pic" src="../dist/img/content.png" width="100px">
+          <div class="col-sm-3 how">
+            <img class="how-pic" src="../dist/img/food.png" width="100px" height="100px">
             <div class="how-heading text-capitalize">
-              create request
+              A lot of venues
+            </div>
+            <div class="how-quote">
+              You may be a person who loves to cook. You absolutely love to spend time in your kitchen.
+            </div>
+          </div>
+          <div class="col-sm-3 how">
+            <img class="how-pic" src="../dist/img/restaurant.png" width="100px" height="100px">
+            <div class="how-heading text-capitalize">
+              High quality
+            </div>
+            <div class="how-quote">
+              Grilling is going to the dogs. According to the Hearth, Patio &amp; Barbecue Association
+            </div>
+          </div>
+          <div class="col-sm-3 how">
+            <img class="how-pic" src="../dist/img/chef.png" width="100px" height="100px">
+            <div class="how-heading text-capitalize">
+              Best chefs
+            </div>
+            <div class="how-quote">
+              When it comes to barbequing, there are two main schools of thought for the techniques that you can use. 
+            </div>
+          </div>
+          <div class="col-sm-3 how">
+            <img class="how-pic" src="../dist/img/cup.png" width="100px" height="100px">
+            <div class="how-heading text-capitalize">
+              Event planning tools
+            </div>
+            <div class="how-quote">
+              Parties and family gatherings are popular this time of year. Whether you’re celebrating an anniversary
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd content row (end) -->
+
+      <!-- 4th content row -->
+      <div class="container-fluid content chefs-2">
+        <div class="row content-heading">
+          <h1 class="text-capitalize">
+            how it works
+          </h1>
+          <p>
+            When it comes to barbequing, there are two main schools of thought for the techniques that you can use. 
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 how">
+            <img class="how-pic" src="../dist/img/events-cafe.jpg" width="100%" height="200px">
+            <div class="how-heading text-capitalize">
+              Browse events
             </div>
             <div class="how-quote">
               You may be a person who loves to cook. You absolutely love to spend time in your kitchen.
             </div>
           </div>
           <div class="col-sm-4 how">
-            <img class="how-pic" src="../dist/img/auction.png" width="100px">
+            <img class="how-pic" src="../dist/img/events-cafe.jpg" width="100%" height="200px">
             <div class="how-heading text-capitalize">
-              get bids
+              Select one
             </div>
             <div class="how-quote">
               You may be a person who loves to cook. You absolutely love to spend time in your kitchen.
             </div>
           </div>
           <div class="col-sm-4 how">
-            <img class="how-pic" src="../dist/img/chef.png" width="100px">
+            <img class="how-pic" src="../dist/img/events-cafe.jpg" width="100%" height="200px">
             <div class="how-heading text-capitalize">
-              choose chef
+              Book it!
             </div>
             <div class="how-quote">
               You may be a person who loves to cook. You absolutely love to spend time in your kitchen.
@@ -173,7 +211,7 @@
           </div>
         </div>
       </div>
-      <!-- 2nd content row (end) -->
+      <!-- 3th content row (end) -->
       <!-- Main content (end) -->
 
       <!-- Footer -->

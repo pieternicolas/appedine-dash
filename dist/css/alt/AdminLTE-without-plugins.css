@@ -224,6 +224,10 @@ a:focus {
   z-index: -1000;
   right: 0;
 }
+.reset {
+  margin: 0;
+  padding: 0;
+}
 /*
  * Component: Main Header
  * ----------------------
