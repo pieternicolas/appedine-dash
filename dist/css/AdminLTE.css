@@ -3519,53 +3519,77 @@ table.text-center th {
     margin: 0 auto;
   }
 }
+.content {
+  color: #343740;
+}
 .content .content-heading {
   text-align: center;
-  color: #ffffff;
 }
-.content.chefs {
+.content.chefs,
+.content.chefs-2 {
   padding: 20px;
+  margin-bottom: 20px;
 }
-.content.chefs .profile-row {
-  margin-top: 20px;
-}
-.content.chefs .profile-row .profile {
+.content.chefs .profile,
+.content.chefs-2 .profile {
   text-align: center;
   text-decoration: none;
   color: #343740;
   padding: 20px;
 }
-.content.chefs .profile-row .profile .profile-pic {
+.content.chefs .profile .profile-pic,
+.content.chefs-2 .profile .profile-pic {
   margin: 0 auto;
   margin-bottom: 10px;
-  margin-top: 10px;
 }
-.content.chefs .profile-row .profile .profile-name {
+.content.chefs .profile .profile-name,
+.content.chefs-2 .profile .profile-name {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
 }
-.content.chefs .profile-row .profile .profile-quote {
+.content.chefs .profile .profile-quote,
+.content.chefs-2 .profile .profile-quote {
   height: 50px;
   font-family: 'Open Sans', sans-serif;
 }
-.content.chefs .profile-row .profile .profile-view {
-  color: #ff2c77;
-  width: 150px;
+.content.chefs .profile .profile-view,
+.content.chefs-2 .profile .profile-view {
+  width: 100%;
   margin: 0 auto;
 }
-.content.chefs .profile-row .profile:hover .profile-pic {
-  border: 3px solid $primary;
-}
-.content.chefs .profile-row .profile:hover .profile-name {
+.content.chefs .profile:hover .profile-name,
+.content.chefs-2 .profile:hover .profile-name,
+.content.chefs .profile:hover .profile-quote,
+.content.chefs-2 .profile:hover .profile-quote {
   color: #ff2c77;
 }
-.content.chefs .profile-all {
+.content.chefs .profile-all,
+.content.chefs-2 .profile-all {
   width: 200px;
   margin: 0 auto;
 }
+.content.chefs .how,
+.content.chefs-2 .how {
+  text-align: center;
+  text-decoration: none;
+  color: #343740;
+  padding: 20px;
+}
+.content.chefs .how .how-heading,
+.content.chefs-2 .how .how-heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 footer {
+  background-color: #343740;
   color: #f2f2f2;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 footer a {
   color: #f2f2f2;

@@ -55,17 +55,17 @@
 }
 
 .content {
+	color: @gray;
+
 	.content-heading {
 		text-align: center;
-		color: @white;
 	}
 
-	&.chefs {
+	// Book a chef homepage
+	&.chefs, &.chefs-2 {
 		padding: 20px;
-
-		.profile-row {
-			margin-top: 20px;
-
+		margin-bottom: 20px;
+	
 			.profile {
 				text-align: center;
 				text-decoration: none;
@@ -75,7 +75,6 @@
 				.profile-pic {
 					margin: 0 auto;
 					margin-bottom: 10px;
-					margin-top: 10px;
 				}
 
 				.profile-name {
@@ -90,27 +89,36 @@
 				}
 
 				.profile-view {
-					color: @brand-primary;
-					width: 150px;
+					width: 100%;
 					margin: 0 auto;
 				}
-			}
 
-			.profile:hover {
-
-				.profile-pic {
-					border:3px solid $primary;
-				}
-
-				.profile-name {
+				&:hover {
+					.profile-name, .profile-quote {
 					color: @brand-primary;
+					}
+				}
+			}
+			.profile-all {
+				width: 200px;
+				margin: 0 auto;
+			}
+
+			.how {
+				text-align: center;
+				text-decoration: none;
+				color: @gray;
+				padding: 20px;
+
+				.how-heading {
+					font-size: 24px;
+					font-weight: 600;
+					line-height: 36px;
+					padding-top: 10px;
+					padding-bottom: 10px;
 				}
 			}
 		}
-
-		.profile-all {
-			width: 200px;
-			margin: 0 auto;
-		}
-	}
+	
+	// Book a chef homepage - end
 }

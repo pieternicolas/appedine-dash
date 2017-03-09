@@ -63,70 +63,77 @@
           <h1 class="text-capitalize">
             pro chefs: work with the best
           </h1>
-          <p class="text-capitalize">
+          <p class="col-sm-8 col-sm-offset-2 text-capitalize">
             we promote and drive your sales for chef's culinary service / your pop up events / your unique spaces for corporate bookings / food tickets for you f &amp; b promo campaign
           </p>
         </div>
 
         <div class="row profile-row">
           <a href="#" class="col-sm-3 profile">
-            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
-            <div class="row profile-name text-uppercase">
+            <div class="profile-pic">
+              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
+            </div>
+            <div class="profile-name text-uppercase">
               william wheeler
             </div>
-            <div class="row profile-quote text-capitalize">
+            <div class="profile-quote text-capitalize">
               microwave cooking is the wave of the future
             </div>
-            <div class="row btn profile-view text-uppercase">
-              view profile
+            <div class="profile-view">
+              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
-            <div class="row profile-name text-uppercase">
+            <div class="profile-pic">
+              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
+            </div>
+            <div class="profile-name text-uppercase">
               blanche gonzalez
             </div>
-            <div class="row profile-quote text-capitalize">
+            <div class="profile-quote text-capitalize">
               how to cook turkey on natural gas grills
             </div>
-            <div class="row btn profile-view text-uppercase">
-              view profile
+            <div class="profile-view">
+              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
-            <div class="row profile-name text-uppercase">
+            <div class="profile-pic">
+              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
+            </div>
+            <div class="profile-name text-uppercase">
               scott estrada
             </div>
-            <div class="row profile-quote text-capitalize">
+            <div class="profile-quote text-capitalize">
               beryl cook s art quirky uk artist
             </div>
-            <div class="row btn profile-view text-uppercase">
-              view profile
+            <div class="profile-view">
+              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
-            <div class="row profile-name text-uppercase">
+            <div class="profile-pic">
+              <img class="img-circle" src="../dist/img/placeholder.svg" width="100px">
+            </div>
+            <div class="profile-name text-uppercase">
               celia paul
             </div>
-            <div class="row profile-quote text-capitalize">
+            <div class="profile-quote text-capitalize">
               bbq myths getting you down
             </div>
-            <div class="row btn profile-view text-uppercase">
-              view profile
+            <div class="profile-view">
+              <button href="#" class="btn btn-inverse text-uppercase">view profile</button>
             </div>
           </a>
-        </div>
-
-        <div class="row btn profile-all text-uppercase">
-          browse all chefs
+          <div class="profile-all">
+            <a href="#" class="btn btn-default text-uppercase">browse all chefs</a>
+          </div>
         </div>
       </section>
       <!-- 1st content row (end) -->
 
       <!-- 2nd content row -->
-      <div class="container-fluid content how-it-works">
+      <div class="container-fluid content chefs-2">
         <div class="row content-heading">
           <h1 class="text-capitalize">
             how it works
@@ -136,9 +143,9 @@
           </p>
         </div>
 
-        <div class="row how-row">
+        <div class="row">
           <div class="col-sm-4 how">
-            <img class="how-pic" src="../dist/img/content.png">
+            <img class="how-pic" src="../dist/img/content.png" width="100px">
             <div class="how-heading text-capitalize">
               create request
             </div>
@@ -147,7 +154,7 @@
             </div>
           </div>
           <div class="col-sm-4 how">
-            <img class="how-pic" src="../dist/img/auction.png">
+            <img class="how-pic" src="../dist/img/auction.png" width="100px">
             <div class="how-heading text-capitalize">
               get bids
             </div>
@@ -156,7 +163,7 @@
             </div>
           </div>
           <div class="col-sm-4 how">
-            <img class="how-pic" src="../dist/img/chef.png">
+            <img class="how-pic" src="../dist/img/chef.png" width="100px">
             <div class="how-heading text-capitalize">
               choose chef
             </div>
