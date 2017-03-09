@@ -201,6 +201,29 @@ a:focus {
   src: url('../../dist/webfonts/3329FF_2_0.eot');
   src: url('../../dist/webfonts/3329FF_2_0.eot?#iefix') format('embedded-opentype'), url('../../dist/webfonts/3329FF_2_0.woff2') format('woff2'), url('../../dist/webfonts/3329FF_2_0.woff') format('woff'), url('../../dist/webfonts/3329FF_2_0.ttf') format('truetype');
 }
+.primary-color {
+  color: #ff2c77;
+}
+.background-image-left {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  z-index: -1000;
+  left: 0;
+}
+.background-image-right {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  z-index: -1000;
+  right: 0;
+}
 /*
  * Component: Main Header
  * ----------------------
@@ -2307,6 +2330,18 @@ a:focus {
   background-color: #ff2c77;
   color: #ffffff;
 }
+.btn-inverse {
+  background-color: #f2f2f2;
+  color: #ff2c77;
+  border-radius: 30px;
+  border-color: #ff2c77;
+}
+.btn-inverse:hover,
+.btn-inverse:active,
+.btn-inverse.hover {
+  background-color: #ff2c77;
+  color: #ffffff;
+}
 .btn-profile {
   background-color: #ffffff;
   color: #ff2c77;
@@ -2396,6 +2431,28 @@ a:focus {
   font-size: 10px;
   font-weight: 400;
 }
+.btn-login-google {
+  background-color: #E94335;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.btn-login-google:hover,
+.btn-login-google:active,
+.btn-login-google.hover {
+  background-color: #ee6e63;
+  color: #ffffff;
+}
+.btn-login-fb {
+  background-color: #4267B2;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.btn-login-fb:hover,
+.btn-login-fb:active,
+.btn-login-fb.hover {
+  background-color: #6283c5;
+  color: #ffffff;
+}
 /*
  * Component: Callout
  * ------------------
@@ -2483,6 +2540,11 @@ a:focus {
 .nav > li > a:active,
 .nav > li > a:focus {
   color: #ff2c77;
+}
+.nav.nav-transparent {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 /* NAV PILLS */
 .nav-pills > li > a {

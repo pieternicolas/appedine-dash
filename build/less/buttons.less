@@ -93,6 +93,17 @@
   }
 }
 
+.btn-inverse {
+  background-color: @gray-light;
+  color: @brand-primary;
+  border-radius: 30px;
+  border-color: @brand-primary;
+  &:hover, &:active, &.hover {
+    background-color: @brand-primary;
+    color: @white;
+  }
+}
+
 .btn-profile {
   background-color: @white;
   color: @brand-primary;
@@ -182,5 +193,26 @@
     right: -10px;
     font-size: 10px;
     font-weight: 400;
+  }
+}
+
+// Social media login buttons
+.btn-login-google {
+  background-color: #E94335;
+  color: @white;
+  border-radius: 30px;
+  &:hover, &:active, &.hover {
+    background-color: lighten(#E94335, 10%);
+    color: @white;
+  }
+}
+
+.btn-login-fb {
+  background-color: #4267B2;
+  color: @white;
+  border-radius: 30px;
+  &:hover, &:active, &.hover {
+    background-color: lighten(#4267B2, 10%);
+    color: @white;
   }
 }

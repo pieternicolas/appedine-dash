@@ -1,6 +1,6 @@
 <header class="main-header">
 <!-- Logo -->
-  <a href="../../index2.html" class="logo">
+  <a href="#" class="logo">
     
     <!-- logo for regular state and mobile devices -->
     <span class="logo-lg"><img src="../dist/img/Logo.png" height="40px"></span>

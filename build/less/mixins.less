@@ -2,7 +2,7 @@
 //===============
 
 //Changes the color and the hovering properties of the navbar
-.navbar-variant(@color; @font-color: rgba(255, 255, 255, 0.8); @hover-color: @brand-primary; @hover-bg: @gray-light) {
+.navbar-variant(@color; @font-color; @hover-color; @hover-bg) {
   background-color: @color;
   //Navbar links
   .nav > li > a {
@@ -120,7 +120,7 @@
   .wrapper,
   .main-sidebar,
   .left-side {
-    background-color: @gray;
+    background-color: @white;
   }
   //User Panel (resides in the sidebar)
   .user-panel {
@@ -202,4 +202,36 @@
       color: #999;
     }
   }
+}
+
+.homepage-background () {
+  background-repeat:no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.primary-color {
+  color: @brand-primary;
+}
+
+.side-background () {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  z-index: -1000;
+}
+
+.background-image-left {
+  .side-background();
+  left: 0;
+}
+.background-image-right {
+  .side-background();
+  right: 0;
 }

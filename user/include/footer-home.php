@@ -1,5 +1,5 @@
 <!-- Footer -->
-
+<footer id="footer" class="footer row container-fluid">
 <div class="col-sm-2 col-lg-2 footer-column">
 	<div class="logo">
 		<img src="../../dist/img/Logo.png" height="40px">
@@ -98,5 +98,5 @@
 		</ul>
 	</div>
 </div>
-
+</footer>
 <!-- Footer (end) -->

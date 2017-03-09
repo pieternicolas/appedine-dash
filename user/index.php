@@ -1,62 +1,64 @@
 
-<?php include __DIR__ . '/include/header-home.php'; ?>
+<?php include __DIR__ . '/include/header.php'; ?>
 
-<body>
+<body class="hold-transition skin-black layout-top-nav">
   <div class="wrapper">
-    <div class="container top">
+      <div class="main-area" style="background-image: url(&quot;../dist/img/homepage--for-chefs.jpg&quot;);">
         <!-- Navigation -->
-        <nav class="navbar">
-          <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img src="../dist/img/Logo.png" height="38px">
-              <div class="mini-logo text-capitalize">
-                chef-on-demand
-              </div>
-            </a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-              <span class="glyphicon glyphicon-th-list"></span>                      
-            </button>
-            <div class="collapse navbar-collapse row text-uppercase" id="navbar">
-              <!-- Navigation left -->
-              <div class="navbar-left">
-                <ul class="nav navbar-nav">
+        <header class="main-header main-header-home">
+          <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="../dist/img/Logo.png" height="35px">
+                <div class="mini-logo text-capitalize">
+                  chef-on-demand
+                </div>
+              </a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="glyphicon glyphicon-th-list"></span>                      
+              </button>
+              <div class="collapse navbar-collapse row text-uppercase" id="navbar">
+                <!-- Navigation left -->
+                <div class="navbar-left">
+                  <ul class="nav navbar-nav">
+                    <li>
+                      <a href="#">chefs-on-demand</a>
+                    </li>
+                    <li>
+                      <a href="#">how it works</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Navigation left end -->
+                <!-- Navigation right -->
+                <ul class="nav navbar-nav navbar-right">
                   <li>
-                    <a href="#">chefs-on-demand</a>
+                    <a href="#">log in</a>
                   </li>
                   <li>
-                    <a href="#">how it works</a>
+                    <button href="#" class="btn btn-default text-uppercase">Become Chef</button>
                   </li>
                 </ul>
+                <!-- Navigation right (end) -->
+                &nbsp;
               </div>
-              <!-- Navigation left end -->
-              <!-- Navigation right -->
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a href="#">log in</a>
-                </li>
-                <li>
-                  <a href="#" class="btn btn-default">become chef</a>
-                </li>
-              </ul>
-              <!-- Navigation right (end) -->
-              &nbsp;
             </div>
-          </div>
-        </nav>
+          </nav>
+        </header>
         <!-- Navigation (end) -->
-        <div class="container-fluid text-uppercase">
-          <div class="row heading col-sm-8 col-sm-offset-2">
-            discover &amp; book <br class="hidden-xs">
-            <span class="heading-pink">chefs in your area</span>
-            <div><a href="user/signup.php" class="btn btn-default request">create request</a></div>
+        <div class="text-uppercase heading">
+          <div class="row col-sm-8 col-sm-offset-2">
+            <h1>discover &amp; book <br class="hidden-xs">
+            <span class="primary-color">chefs in your area</span></h1>
+            <div class="col-sm-4 col-sm-offset-4"><a href="user/signup.php" class="btn btn-default btn-block">create request</a></div>
           </div>
-          
         </div>
       </div>
+      
 
       <!-- Main content -->
       <!-- 1st content row -->
-      <div class="container-fluid content chefs">
+      <section class="container-fluid content chefs">
         <div class="row content-heading">
           <h1 class="text-capitalize">
             pro chefs: work with the best
@@ -68,7 +70,7 @@
 
         <div class="row profile-row">
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="../dist/img/placeholder.svg">
+            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
             <div class="row profile-name text-uppercase">
               william wheeler
             </div>
@@ -80,7 +82,7 @@
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="../dist/img/placeholder.svg">
+            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
             <div class="row profile-name text-uppercase">
               blanche gonzalez
             </div>
@@ -92,7 +94,7 @@
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="../dist/img/placeholder.svg" >
+            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
             <div class="row profile-name text-uppercase">
               scott estrada
             </div>
@@ -104,7 +106,7 @@
             </div>
           </a>
           <a href="#" class="col-sm-3 profile">
-            <img class="profile-pic" src="../dist/img/placeholder.svg">
+            <img class="img-circle" src="../dist/img/placeholder.svg" height="100px">
             <div class="row profile-name text-uppercase">
               celia paul
             </div>
@@ -120,7 +122,7 @@
         <div class="row btn profile-all text-uppercase">
           browse all chefs
         </div>
-      </div>
+      </section>
       <!-- 1st content row (end) -->
 
       <!-- 2nd content row -->
@@ -168,9 +170,9 @@
       <!-- Main content (end) -->
 
       <!-- Footer -->
-      <footer id="footer" class="footer row container-fluid">
+      
         <?php include __DIR__ . '/include/footer-home.php'; ?>
-      </footer>
+      
       <!-- Footer (end) --> 
   
   </div>

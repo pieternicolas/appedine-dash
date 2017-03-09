@@ -1,0 +1,116 @@
+.navbar {
+	padding-top: 40px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 40px;
+	letter-spacing: 1px;
+	.mini-logo {
+		color: @gray-light;
+		height: 8px;
+		font-size: 8px;
+		text-align: right;
+	}
+}
+
+.main-area {
+	height: 600px;
+	width: 100%;
+	.homepage-background ();
+
+	.heading {
+		margin-top: 100px;
+		h1 {
+			color: @white;
+			font-size: 60px;
+			font-weight: 300;
+			text-align: center;
+			line-height: 72px;
+		}
+
+		@media (max-width: @screen-xs-min) {
+			margin-top: 20px;
+			h1 {
+				font-size: 40px;
+				font-weight: 300;
+				line-height: 72px;
+			}
+		}
+
+		@media (max-width: @screen-sm-min) {
+			margin-top: 40px;
+			h1 {
+				font-size: 50px;
+				font-weight: 300;
+				line-height: 72px;
+			}
+		}
+
+		a.btn {
+			@media (min-width: @screen-md-min) {
+				width: 200px;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+.content {
+	.content-heading {
+		text-align: center;
+		color: @white;
+	}
+
+	&.chefs {
+		padding: 20px;
+
+		.profile-row {
+			margin-top: 20px;
+
+			.profile {
+				text-align: center;
+				text-decoration: none;
+				color: @gray;
+				padding: 20px;
+
+				.profile-pic {
+					margin: 0 auto;
+					margin-bottom: 10px;
+					margin-top: 10px;
+				}
+
+				.profile-name {
+					font-size: 18px;
+					font-weight: 500;
+					text-align: center;
+				}
+
+				.profile-quote {
+					height: 50px;
+					font-family: @type-secondary;
+				}
+
+				.profile-view {
+					color: @brand-primary;
+					width: 150px;
+					margin: 0 auto;
+				}
+			}
+
+			.profile:hover {
+
+				.profile-pic {
+					border:3px solid $primary;
+				}
+
+				.profile-name {
+					color: @brand-primary;
+				}
+			}
+		}
+
+		.profile-all {
+			width: 200px;
+			margin: 0 auto;
+		}
+	}
+}

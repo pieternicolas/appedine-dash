@@ -201,6 +201,29 @@ a:focus {
   src: url('../../dist/webfonts/3329FF_2_0.eot');
   src: url('../../dist/webfonts/3329FF_2_0.eot?#iefix') format('embedded-opentype'), url('../../dist/webfonts/3329FF_2_0.woff2') format('woff2'), url('../../dist/webfonts/3329FF_2_0.woff') format('woff'), url('../../dist/webfonts/3329FF_2_0.ttf') format('truetype');
 }
+.primary-color {
+  color: #ff2c77;
+}
+.background-image-left {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  z-index: -1000;
+  left: 0;
+}
+.background-image-right {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  z-index: -1000;
+  right: 0;
+}
 /*
  * Component: Main Header
  * ----------------------
@@ -2307,6 +2330,18 @@ a:focus {
   background-color: #ff2c77;
   color: #ffffff;
 }
+.btn-inverse {
+  background-color: #f2f2f2;
+  color: #ff2c77;
+  border-radius: 30px;
+  border-color: #ff2c77;
+}
+.btn-inverse:hover,
+.btn-inverse:active,
+.btn-inverse.hover {
+  background-color: #ff2c77;
+  color: #ffffff;
+}
 .btn-profile {
   background-color: #ffffff;
   color: #ff2c77;
@@ -2396,6 +2431,28 @@ a:focus {
   font-size: 10px;
   font-weight: 400;
 }
+.btn-login-google {
+  background-color: #E94335;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.btn-login-google:hover,
+.btn-login-google:active,
+.btn-login-google.hover {
+  background-color: #ee6e63;
+  color: #ffffff;
+}
+.btn-login-fb {
+  background-color: #4267B2;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.btn-login-fb:hover,
+.btn-login-fb:active,
+.btn-login-fb.hover {
+  background-color: #6283c5;
+  color: #ffffff;
+}
 /*
  * Component: Callout
  * ------------------
@@ -2483,6 +2540,11 @@ a:focus {
 .nav > li > a:active,
 .nav > li > a:focus {
   color: #ff2c77;
+}
+.nav.nav-transparent {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 /* NAV PILLS */
 .nav-pills > li > a {
@@ -3397,6 +3459,139 @@ table.text-center th {
 }
 .post .user-block {
   margin-bottom: 15px;
+}
+.navbar {
+  padding-top: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+.navbar .mini-logo {
+  color: #f2f2f2;
+  height: 8px;
+  font-size: 8px;
+  text-align: right;
+}
+.main-area {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.main-area .heading {
+  margin-top: 100px;
+}
+.main-area .heading h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 72px;
+}
+@media (max-width: 480px) {
+  .main-area .heading {
+    margin-top: 20px;
+  }
+  .main-area .heading h1 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 72px;
+  }
+}
+@media (max-width: 768px) {
+  .main-area .heading {
+    margin-top: 40px;
+  }
+  .main-area .heading h1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 72px;
+  }
+}
+@media (min-width: 992px) {
+  .main-area .heading a.btn {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+.content .content-heading {
+  text-align: center;
+  color: #ffffff;
+}
+.content.chefs {
+  padding: 20px;
+}
+.content.chefs .profile-row {
+  margin-top: 20px;
+}
+.content.chefs .profile-row .profile {
+  text-align: center;
+  text-decoration: none;
+  color: #343740;
+  padding: 20px;
+}
+.content.chefs .profile-row .profile .profile-pic {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.content.chefs .profile-row .profile .profile-name {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.content.chefs .profile-row .profile .profile-quote {
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+.content.chefs .profile-row .profile .profile-view {
+  color: #ff2c77;
+  width: 150px;
+  margin: 0 auto;
+}
+.content.chefs .profile-row .profile:hover .profile-pic {
+  border: 3px solid $primary;
+}
+.content.chefs .profile-row .profile:hover .profile-name {
+  color: #ff2c77;
+}
+.content.chefs .profile-all {
+  width: 200px;
+  margin: 0 auto;
+}
+footer {
+  color: #f2f2f2;
+}
+footer a {
+  color: #f2f2f2;
+}
+footer .footer-column {
+  margin-bottom: 15px;
+}
+@media (min-width: 992px) {
+  footer .footer-column {
+    height: 250px;
+  }
+}
+footer .footer-column .footer-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+}
+footer .footer-column ul {
+  padding: 0;
+}
+footer .footer-column ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+footer .footer-column .social-media .fa {
+  margin-right: 10px;
 }
 /*
  * Social Buttons for Bootstrap
