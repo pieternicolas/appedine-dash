@@ -1,7 +1,7 @@
 <?php include __DIR__ . '/include/header.php'; ?>
 
 <body>
-	<div class="background-image-left hidden-xs" style="background-image: url(&quot;../dist/img/Chef-sign-up-bg.jpg&quot;);"></div>
+	<div class="background-image-left hidden-xs" style="background-image: url(&quot;../dist/img/event-sign-up-bg.jpg&quot;);"></div>
 
 	<header class="main-header main-header-home">
 		<div class="container">
@@ -11,6 +11,7 @@
 		</div>
 	</header>
 
+
 	<div class="container">
 		<div class="row col-sm-6 col-sm-offset-6">
 			<h1 class="text-capitalize">
@@ -18,12 +19,12 @@
 			</h1>
 			<br>
 			<h4>
-				Your payment went successfully. You can manage your chef bookings in your profile
+				Your payment went successfully. You can manage your bookings in your profile
 			</h4>
 			<br>
 			<a href="request-all.php" class="btn btn-default">Go to my bookings</a>
 			<a href="#" class="btn btn-flat btn-plain">Back home</a>
 		</div>
 	</div>
-
+	
 	<?php include __DIR__ . '/include/footer.php'; ?>
