@@ -103,7 +103,7 @@
             Browse events by type
           </h1>
         </div>
-        <div class="col-sm-10 col-sm-offset-1">
+        <div class="all-type">
           <div class="col-sm-4 event-type">
             <div class="overlay">
               <h3 class="text-uppercase">Cocktail networking</h3>

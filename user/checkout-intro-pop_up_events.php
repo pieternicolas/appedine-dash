@@ -3,15 +3,106 @@
 <body class="hold-transition skin-black layout-top-nav">
 <div class="wrapper">
 
-  <?php include __DIR__ . '/include/dash-navigation.php'; ?>
+  <!-- Navigation -->
+        <header class="main-header main-header-home inverse">
+          <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="../dist/img/Logo-black.svg" height="35px">
+                <div class="mini-logo text-capitalize">
+                  Events
+                </div>
+              </a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="glyphicon glyphicon-th-list"></span>                      
+              </button>
+              <div class="collapse navbar-collapse row text-uppercase" id="navbar">
+                <!-- Navigation left -->
+                <div class="navbar-left">
+                  <ul class="nav navbar-nav">
+                    <li>
+                      <a href="#">events</a>
+                    </li>
+                    <li>
+                      <a href="#">how it works</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Navigation left end -->
+                <!-- Navigation right -->
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="#">log in</a>
+                  </li>
+                  <li>
+                    <button href="#" class="btn btn-default text-uppercase">Become a venue partner</button>
+                  </li>
+                </ul>
+                <!-- Navigation right (end) -->
+                &nbsp;
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- Navigation (end) -->
 
   <!-- Full Width Column -->
   <div class="content-wrapper" id="app">
     <div class="container">
       <!-- Main content -->
       
-      <!-- Checkout fields -->
-      <?php include __DIR__ . '/include/checkout-fields.php'; ?>
+      
+      <section class="content col-sm-9">
+        <h1>Checkout</h1>
+        <h2>Already have an account?</h2>
+        <div class="row">
+          <form>
+            <div class="form-group col-sm-6 ">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="juliadoe@gmail.com">
+            </div>
+            <div class="form-group col-sm-6 ">
+              <label>Password</label>
+              <input type="password" class="form-control" placeholder="Enter your password">
+            </div>
+            <div class="form-group col-sm-6">
+              <input type="submit" class="btn btn-primary" value="Log In">
+            </div>
+          </form>
+        </div>
+        <h2>I'm a new user</h2>
+        <div class="row">
+          <form>
+            <div class="form-group col-sm-6 ">
+              <label>First name</label>
+              <input type="text" class="form-control" placeholder="Julia">
+            </div>
+            <div class="form-group col-sm-6 ">
+              <label>Last name</label>
+              <input type="text" class="form-control" placeholder="Doe">
+            </div>
+            <div class="form-group col-sm-6 ">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="juliadoe@gmail.com">
+            </div>
+            <div class="form-group col-sm-6 ">
+              <label>Password</label>
+              <input type="password" class="form-control" placeholder="5+ characters">
+            </div>
+            <div class="form-group col-sm-6">
+              <input type="submit" class="btn btn-primary" value="Sign up">
+            </div>
+          </form>
+        </div>
+        <div class="box">
+          <span class="h2">Want to stay private?</span>
+          <span title="In Guest Payment mode your personal and payment information wont be saved. We will send you an email with event booking details. If you wish to track your booking from dashboard you shoud login or create profile." class="h6 text-uppercase pull-right">What is this?</span>
+          <div class="divider">&nbsp;</div>
+          <div>
+            <a href="#" class="btn btn-archive">Guest Payment</a>
+          </div>
+        </div>
+      </section>
 
       <section class="content col-sm-3">
         <h2>Booking Details</h2>

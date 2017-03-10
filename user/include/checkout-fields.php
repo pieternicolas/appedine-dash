@@ -1,4 +1,4 @@
-<section class="content col-sm-9">
+
 	<h1>
 		Checkout
 	</h1>
@@ -25,7 +25,6 @@
 							<i class="fa fa-credit-card-alt"></i>
 						</div>
 					</div>
-				
 			</div>
 
 			<div class="form-group col-sm-6">
@@ -60,4 +59,3 @@
 
 	<input type="submit" class="btn btn-primary col-sm-4 text-uppercase" value="Complete Purchase">
 	</form>
-</section>

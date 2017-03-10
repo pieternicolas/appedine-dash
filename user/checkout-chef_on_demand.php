@@ -11,7 +11,9 @@
       <!-- Main content -->
       
       <!-- Checkout fields -->
+      <section class="content col-sm-9">
       <?php include __DIR__ . '/include/checkout-fields.php'; ?>
+      </section>
 
       <section class="content col-sm-3">
         <div class="box">
