@@ -104,15 +104,61 @@
           </h1>
         </div>
         <div class="col-sm-10 col-sm-offset-1">
-          <div class="col-sm-4">
-            asdf
+          <div class="col-sm-4 event-type">
+            <div class="overlay">
+              <h3 class="text-uppercase">Cocktail networking</h3>
+              <p>Cocktail receptions with passed or stationed hors d'oeuvres</p>
+            </div>
+            <div class="base">
+              <img src="../dist/img/event-type.jpg" width="100%" height="100%">
+            </div>
           </div>
-          <div class="col-sm-4">
-            asd
+          <div class="col-sm-4 event-type">
+            <div class="overlay">
+              <h3 class="text-uppercase">Dining experience</h3>
+              <p>Cocktail receptions with passed or stationed hors d'oeuvres</p>
+            </div>
+            <div class="base">
+              <img src="../dist/img/event-type.jpg" width="100%" height="100%">
+            </div>
           </div>
-          <div class="col-sm-4">
-            fd
+          <div class="col-sm-4 event-type">
+            <div class="overlay">
+              <h3 class="text-uppercase">Co-working</h3>
+              <p>Cocktail receptions with passed or stationed hors d'oeuvres</p>
+            </div>
+            <div class="base">
+              <img src="../dist/img/event-type.jpg" width="100%" height="100%">
+            </div>
           </div>
+          <div class="col-sm-4 event-type">
+            <div class="overlay">
+              <h3 class="text-uppercase">interactive f &amp; b</h3>
+              <p>Cocktail receptions with passed or stationed hors d'oeuvres</p>
+            </div>
+            <div class="base">
+              <img src="../dist/img/event-type.jpg" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="col-sm-4 event-type">
+            <div class="overlay">
+              <h3 class="text-uppercase">Team bonding activity</h3>
+              <p>Cocktail receptions with passed or stationed hors d'oeuvres</p>
+            </div>
+            <div class="base">
+              <img src="../dist/img/event-type.jpg" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="col-sm-4 event-type">
+            <div class="overlay">
+              <h3 class="text-uppercase">Boardroom meetings</h3>
+              <p>Cocktail receptions with passed or stationed hors d'oeuvres</p>
+            </div>
+            <div class="base">
+              <img src="../dist/img/event-type.jpg" width="100%" height="100%">
+            </div>
+          </div>
+          
         </div>
         
       </section>
