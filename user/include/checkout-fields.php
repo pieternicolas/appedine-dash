@@ -3,15 +3,13 @@
 		Checkout
 	</h1>
 	<div class="col-sm-12 box">
-		<div class="col-sm-3">
-			Logged as <br>
+		
+			<span class="text-uppercase h6">Logged as :</span>
 			<img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" height="40px">
-			<span >
-				Julia Doe
-				<a href="#">Log out</a>
-			</span>
-		</div>
-		&nbsp;
+			<span class="h4">Julia Doe</span><br>
+			<a href="#" class="h6 primary-color">Log out</a>
+		
+		
 	</div>
 
 	<div class="box col-sm-12">
@@ -60,6 +58,6 @@
 		
 	</div>
 
-	<input type="submit" class="btn btn-primary col-sm-4" value="Complete Purchase">
+	<input type="submit" class="btn btn-primary col-sm-4 text-uppercase" value="Complete Purchase">
 	</form>
 </section>
