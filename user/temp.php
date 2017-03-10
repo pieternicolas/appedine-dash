@@ -13,9 +13,13 @@
     </div>
     <!-- /.container -->
   </div>
+  <!-- Footer -->
+      
+    <?php include __DIR__ . '/include/footer-home.php'; ?>
+  
+  <!-- Footer (end) --> 
   <!-- /.content-wrapper -->
 </div>
 <!-- ./wrapper -->
 
-
-<?php include __DIR__ . '/include/footer.php'; ?>
+<?php include __DIR__ . '/include/footer.php' ?>

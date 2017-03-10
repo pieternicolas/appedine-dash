@@ -270,4 +270,5 @@
   <!-- /.content-wrapper -->
 </div>
 <!-- ./wrapper -->
+
 <?php include __DIR__ . '/include/footer.php'; ?>
