@@ -34,6 +34,13 @@
       checkboxClass: 'icheckbox_minimal-grey',
       radioClass: 'iradio_minimal-grey'
     });
+
+    var el = $('#sidebar'),
+      pos = el.position().top;
+
+    $(window).scroll(function() {
+        el.toggleClass('fixed', $(this).scrollTop() >= pos);
+    });
   });
 </script>
 </body>

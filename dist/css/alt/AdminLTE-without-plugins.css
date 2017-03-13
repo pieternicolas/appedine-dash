@@ -630,6 +630,10 @@ a:focus {
 .sidebar-menu .treeview-menu > li > a > .fa-angle-down {
   width: auto;
 }
+#sidebar-right.fixed > div {
+  position: fixed;
+  top: 0;
+}
 /*
  * Component: Sidebar Mini
  */
