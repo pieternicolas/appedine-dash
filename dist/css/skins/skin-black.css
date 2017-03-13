@@ -156,6 +156,53 @@
   color: #ff2c77;
   background: #f2f2f2;
 }
+.skin-black .main-header.main-header-home.inverse-bg .navbar {
+  background-color: #343740;
+  padding-bottom: 15px;
+}
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav > li > a {
+  color: #bcc5cd;
+}
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav > li > a:hover,
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav > li > a:active,
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav > li > a:focus,
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav .open > a,
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav .open > a:hover,
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav .open > a:focus,
+.skin-black .main-header.main-header-home.inverse-bg .navbar .nav > .active > a {
+  background: #f2f2f2;
+  color: #ff2c77;
+}
+.skin-black .main-header.main-header-home.inverse-bg .navbar .sidebar-toggle {
+  color: #bcc5cd;
+}
+.skin-black .main-header.main-header-home.inverse-bg .navbar .sidebar-toggle:hover {
+  color: #ff2c77;
+  background: #f2f2f2;
+}
+.skin-black .main-header.main-header-chef .navbar {
+  background-color: #ffffff;
+}
+.skin-black .main-header.main-header-chef .navbar .nav > li > a {
+  color: #343740;
+}
+.skin-black .main-header.main-header-chef .navbar .nav > li > a:hover,
+.skin-black .main-header.main-header-chef .navbar .nav > li > a:active,
+.skin-black .main-header.main-header-chef .navbar .nav > li > a:focus,
+.skin-black .main-header.main-header-chef .navbar .nav .open > a,
+.skin-black .main-header.main-header-chef .navbar .nav .open > a:hover,
+.skin-black .main-header.main-header-chef .navbar .nav .open > a:focus,
+.skin-black .main-header.main-header-chef .navbar .nav > .active > a {
+  background: #ffffff;
+  color: #ff2c77;
+}
+.skin-black .main-header.main-header-chef .navbar .sidebar-toggle {
+  color: #343740;
+}
+.skin-black .main-header.main-header-chef .navbar .sidebar-toggle:hover {
+  color: #ff2c77;
+  background: #ffffff;
+}
 .skin-black .content-header {
   background: transparent;
   box-shadow: none;
@@ -163,7 +210,7 @@
 .skin-black .wrapper,
 .skin-black .main-sidebar,
 .skin-black .left-side {
-  background-color: #ffffff;
+  background-color: #343740;
 }
 .skin-black .user-panel > .info,
 .skin-black .user-panel > .info > a {

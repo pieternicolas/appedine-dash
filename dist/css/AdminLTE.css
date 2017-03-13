@@ -3468,14 +3468,14 @@ table.text-center th {
 .post .user-block {
   margin-bottom: 15px;
 }
-.navbar {
+.main-header-home .navbar {
   padding-top: 40px;
   font-size: 14px;
   font-weight: 500;
   line-height: 40px;
   letter-spacing: 1px;
 }
-.navbar .mini-logo {
+.main-header-home .navbar .mini-logo {
   color: #f2f2f2;
   height: 8px;
   font-size: 8px;

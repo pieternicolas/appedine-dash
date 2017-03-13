@@ -15,8 +15,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Select2 -->
   <link rel="stylesheet" href="../../plugins/select2/select2.min.css">
+  <!-- Check boxes -->
+  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
   <!-- bootstrap datepicker -->
   <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
 
 
   <!-- Theme style -->

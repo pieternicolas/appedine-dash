@@ -1,4 +1,4 @@
-<header class="main-header">
+<header class="main-header main-header-chef">
 <!-- Logo -->
   <a href="#" class="logo">
     

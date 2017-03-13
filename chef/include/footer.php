@@ -6,10 +6,15 @@
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
 <script src="../../plugins/fastclick/fastclick.js"></script>
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
 <!-- bootstrap datepicker -->
 <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- bootstrap time picker -->
+<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- Select2 -->
 <script src="../../plugins/select2/select2.full.min.js"></script>
+<!-- iCheck 1.0.1 -->
+<script src="../../plugins/iCheck/icheck.min.js"></script>
 
 <!-- AdminLTE App -->
 <script src="../dist/js/app.min.js"></script>
@@ -22,6 +27,17 @@
     //Date picker
     $('#datepicker').datepicker({
       autoclose: true
+    });
+
+    //Timepicker
+    $(".timepicker").timepicker({
+      showInputs: false
+    });
+
+    //iCheck for checkbox and radio inputs
+    $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+      checkboxClass: 'icheckbox_minimal-grey',
+      radioClass: 'iradio_minimal-grey'
     });
   });
 </script>
