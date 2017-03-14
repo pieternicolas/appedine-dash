@@ -20,6 +20,11 @@
     box-shadow: none;
     border-width: 1px;
     background-color: @gray-light;
+
+    &.inverse {
+      background-color: lighten(@gray, 10%);
+      color: @gray-light;
+    }
   }
 
   // Active state

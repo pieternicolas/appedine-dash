@@ -207,10 +207,12 @@
   background: transparent;
   box-shadow: none;
 }
-.skin-black .wrapper,
 .skin-black .main-sidebar,
 .skin-black .left-side {
   background-color: #343740;
+}
+.skin-black .wrapper {
+  background-color: #ffffff;
 }
 .skin-black .user-panel > .info,
 .skin-black .user-panel > .info > a {

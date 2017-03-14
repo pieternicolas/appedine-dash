@@ -2275,6 +2275,10 @@ a:focus {
   border-width: 1px;
   background-color: #f2f2f2;
 }
+.btn.btn-flat.inverse {
+  background-color: #4b4f5c;
+  color: #f2f2f2;
+}
 .btn:active {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);

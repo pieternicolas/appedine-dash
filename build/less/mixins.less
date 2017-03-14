@@ -117,10 +117,13 @@
 //Dark Sidebar Mixin
 .skin-dark-sidebar(@link-hover-border-color) {
   // Sidebar background color (Both .wrapper and .left-side are responsible for sidebar bg color)
-  .wrapper,
   .main-sidebar,
   .left-side {
     background-color: @gray;
+  }
+
+  .wrapper {
+    background-color: @white;
   }
   //User Panel (resides in the sidebar)
   .user-panel {
