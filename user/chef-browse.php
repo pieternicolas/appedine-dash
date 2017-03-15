@@ -106,147 +106,192 @@
 					<h3>Popular chefs on-demand</h3>
 					<div class="row">
 						<div class="col-sm-4">
-							<div class="box box-menu inverse">
-								<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-								<div class="view-menu">
-									<h5>The Almighty Beer Can Chicken</h5>
-									<h6>Mueller</h6>
-									<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-										<i class="fa fa-usd"></i><span class="view-menu-price">117</span><br class="hidden-xs">
-										per person
-									</p>
-									<h6>8 - 30 guests | 3 hours</h6>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="box box-menu inverse">
-								<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-								<div class="view-menu">
-									<h5>Is It Frosting Or Is It Icing</h5>
-									<h6>Mueller</h6>
-									<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-										<i class="fa fa-usd"></i><span class="view-menu-price">127</span><br class="hidden-xs">
-										per person
-									</p>
-									<h6>8 - 30 guests | 3 hours</h6>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="box box-menu inverse">
-								<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-								<div class="view-menu">
-									<h5>Cooking Cajun Food</h5>
-									<h6>Mueller</h6>
-									<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-										<i class="fa fa-usd"></i><span class="view-menu-price">118</span><br class="hidden-xs">
-										per person
-									</p>
-									<h6>8 - 30 guests | 3 hours</h6>
-								</div>
-							</div>
-						</div>
+	            <div class="box box-chef inverse">
+	              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+	              <div class="view-chef">
+	                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+	                <h5>Bess Ball</h5>
+	                <h6>North Quintonchester</h6>
+	                <p class="view-chef-content">Thrill Friends And Family With A Make It Yourself Pizza Party</p>
+	                <p>
+	                  <i class="fa fa-usd"></i><span class="view-chef-price">96+</span><br class="hidden-xs">
+	                  per person
+	                </p>
+	                <div>
+	                  <button class="btn btn-flat">Caribbean</button>
+	                  <button class="btn btn-flat">European</button>
+	                  <span class="text-muted"><small>+3 more</small></span>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col-sm-4">
+	            <div class="box box-chef inverse">
+	              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+	              <div class="view-chef">
+	                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+	                <h5>Carolyn Sanders</h5>
+	                <h6>Grayceshire</h6>
+	                <p class="view-chef-content">Delivering kisses and miracles</p>
+	                <p>
+	                  <i class="fa fa-usd"></i><span class="view-chef-price">57+</span><br class="hidden-xs">
+	                  per person
+	                </p>
+	                <div>
+	                  <button class="btn btn-flat">International</button>
+	                  <button class="btn btn-flat">Spanish</button>
+	                  <span class="text-muted"><small>+2 more</small></span>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col-sm-4">
+	            <div class="box box-chef inverse">
+	              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+	              <div class="view-chef">
+	                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+	                <h5>Steven Marsh</h5>
+	                <h6>Jamirchester</h6>
+	                <p class="view-chef-content">When to use high heat on your barbeque</p>
+	                <p>
+	                  <i class="fa fa-usd"></i><span class="view-chef-price">127+</span><br class="hidden-xs">
+	                  per person
+	                </p>
+	                <div>
+	                  <button class="btn btn-flat">Caribbean</button>
+	                  <button class="btn btn-flat">European</button>
+	                  <span class="text-muted"><small>+3 more</small></span>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
 					</div>
 					<h3>There are 48 available chefs</h3>
 						<div class="row">
 							<div class="col-sm-4">
-								<div class="box box-menu">
-									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-									<div class="view-menu">
-										<h5>Cooking Cajun Food</h5>
-										<h6>Mueller</h6>
-										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-											<i class="fa fa-usd"></i><span class="view-menu-price">118</span><br class="hidden-xs">
-											per person
-										</p>
-										<h6>8 - 30 guests | 3 hours</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="box box-menu">
-									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-									<div class="view-menu">
-										<h5>Cooking Cajun Food</h5>
-										<h6>Mueller</h6>
-										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-											<i class="fa fa-usd"></i><span class="view-menu-price">118</span><br class="hidden-xs">
-											per person
-										</p>
-										<h6>8 - 30 guests | 3 hours</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="box box-menu">
-									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-									<div class="view-menu">
-										<h5>Cooking Cajun Food</h5>
-										<h6>Mueller</h6>
-										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-											<i class="fa fa-usd"></i><span class="view-menu-price">118</span><br class="hidden-xs">
-											per person
-										</p>
-										<h6>8 - 30 guests | 3 hours</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="box box-menu">
-									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-									<div class="view-menu">
-										<h5>Cooking Cajun Food</h5>
-										<h6>Mueller</h6>
-										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-											<i class="fa fa-usd"></i><span class="view-menu-price">118</span><br class="hidden-xs">
-											per person
-										</p>
-										<h6>8 - 30 guests | 3 hours</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="box box-menu">
-									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-									<div class="view-menu">
-										<h5>Cooking Cajun Food</h5>
-										<h6>Mueller</h6>
-										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-											<i class="fa fa-usd"></i><span class="view-menu-price">118</span><br class="hidden-xs">
-											per person
-										</p>
-										<h6>8 - 30 guests | 3 hours</h6>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="box box-menu">
-									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-									<div class="view-menu">
-										<h5>Cooking Cajun Food</h5>
-										<h6>Mueller</h6>
-										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-											<i class="fa fa-usd"></i><span class="view-menu-price">118</span><br class="hidden-xs">
-											per person
-										</p>
-										<h6>8 - 30 guests | 3 hours</h6>
-									</div>
-								</div>
-							</div>
+		            <div class="box box-chef">
+		              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+		              <div class="view-chef">
+		                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+		                <h5>Bess Ball</h5>
+		                <h6>North Quintonchester</h6>
+		                <p class="view-chef-content">Thrill Friends And Family With A Make It Yourself Pizza Party</p>
+		                <p>
+		                  <i class="fa fa-usd"></i><span class="view-chef-price">96+</span><br class="hidden-xs">
+		                  per person
+		                </p>
+		                <div>
+		                  <button class="btn btn-flat inverse">Caribbean</button>
+		                  <button class="btn btn-flat inverse">European</button>
+		                  <span class="text-muted"><small>+3 more</small></span>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-sm-4">
+		            <div class="box box-chef">
+		              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+		              <div class="view-chef">
+		                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+		                <h5>Carolyn Sanders</h5>
+		                <h6>Grayceshire</h6>
+		                <p class="view-chef-content">Delivering kisses and miracles</p>
+		                <p>
+		                  <i class="fa fa-usd"></i><span class="view-chef-price">57+</span><br class="hidden-xs">
+		                  per person
+		                </p>
+		                <div>
+		                  <button class="btn btn-flat inverse">International</button>
+		                  <button class="btn btn-flat inverse">Spanish</button>
+		                  <span class="text-muted"><small>+2 more</small></span>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-sm-4">
+		            <div class="box box-chef">
+		              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+		              <div class="view-chef">
+		                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+		                <h5>Steven Marsh</h5>
+		                <h6>Jamirchester</h6>
+		                <p class="view-chef-content">When to use high heat on your barbeque</p>
+		                <p>
+		                  <i class="fa fa-usd"></i><span class="view-chef-price">127+</span><br class="hidden-xs">
+		                  per person
+		                </p>
+		                <div>
+		                  <button class="btn btn-flat inverse">Caribbean</button>
+		                  <button class="btn btn-flat inverse">European</button>
+		                  <span class="text-muted"><small>+3 more</small></span>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-sm-4">
+		            <div class="box box-chef">
+		              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+		              <div class="view-chef">
+		                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+		                <h5>Bess Ball</h5>
+		                <h6>North Quintonchester</h6>
+		                <p class="view-chef-content">Thrill Friends And Family With A Make It Yourself Pizza Party</p>
+		                <p>
+		                  <i class="fa fa-usd"></i><span class="view-chef-price">96+</span><br class="hidden-xs">
+		                  per person
+		                </p>
+		                <div>
+		                  <button class="btn btn-flat inverse">Caribbean</button>
+		                  <button class="btn btn-flat inverse">European</button>
+		                  <span class="text-muted"><small>+3 more</small></span>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-sm-4">
+		            <div class="box box-chef">
+		              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+		              <div class="view-chef">
+		                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+		                <h5>Carolyn Sanders</h5>
+		                <h6>Grayceshire</h6>
+		                <p class="view-chef-content">Delivering kisses and miracles</p>
+		                <p>
+		                  <i class="fa fa-usd"></i><span class="view-chef-price">57+</span><br class="hidden-xs">
+		                  per person
+		                </p>
+		                <div>
+		                  <button class="btn btn-flat inverse">International</button>
+		                  <button class="btn btn-flat inverse">Spanish</button>
+		                  <span class="text-muted"><small>+2 more</small></span>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-sm-4">
+		            <div class="box box-chef">
+		              <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+		              <div class="view-chef">
+		                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
+		                <h5>Steven Marsh</h5>
+		                <h6>Jamirchester</h6>
+		                <p class="view-chef-content">When to use high heat on your barbeque</p>
+		                <p>
+		                  <i class="fa fa-usd"></i><span class="view-chef-price">127+</span><br class="hidden-xs">
+		                  per person
+		                </p>
+		                <div>
+		                  <button class="btn btn-flat inverse">Caribbean</button>
+		                  <button class="btn btn-flat inverse">European</button>
+		                  <span class="text-muted"><small>+3 more</small></span>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
 						</div>
 						<div class="row">
 							<button class="btn btn-plain col-sm-4 col-sm-offset-4">Show More</button>
 						</div>
-				</div>
-				<div class="col-sm-9 col-sm-offset-3">
-					<h3>Not sure what to choose?</h3>
-					<div class="col-sm-9">
-						<p>Get free recomendations from one of our rockstars. <br class="hidden-xs">Fill in your email and we’ll get in touch!</p>
-					</div>
-					<div class="col-sm-3">
-						<a href="#" class="btn btn-default"">Show recommendations</a>
-					</div>
 				</div>
 				&nbsp;
 			</section>
