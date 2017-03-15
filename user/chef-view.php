@@ -58,7 +58,12 @@
                 <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" height="80px">
               </div>
               <div class="col-sm-10">
-                <h4>William Wheeler</h4>
+                <h4>
+                  William Wheeler
+                  <span class="pull-right">
+                    <i class="fa fa-usd"></i> 37+ <small><sub>per person</sub></small>
+                  </span>
+                </h4>
                 <p>Katlynntown</p>
                 <p>If you are considering purchasing a new grill, or barbecue, you will be faced with a multitude of options to choose between. However, there is one choice which you will need to make fairly quickly in your quest for the perfect grill for you. That decision is whether to buy a charcoal or gas grill.</p>
                 <div>
@@ -91,7 +96,7 @@
               </div>
             </div>
           </div>
-          
+          <br class="visible-xs">
           <div class="col-sm-12">
             <label>William's Menus</label>
             <div class="row">
