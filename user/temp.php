@@ -7,10 +7,9 @@
 
 <!-- Full Width Column -->
   <div class="content-wrapper" id="app">
-    <div class="container" id="root">
+    <div class="container">
       <!-- Main content -->
-      <p v-text="test"></p>
-      <button type="button" v-on:click="doThis()">hi</button>
+      
       <!-- /.content -->
     </div>
     <!-- /.container -->

@@ -35,7 +35,7 @@
 							<a href="#">log in</a>
 						</li>
 						<li>
-							<button href="#" class="btn btn-default text-uppercase">Become a venue partner</button>
+							<button href="#" class="btn btn-default text-uppercase">Become a chef</button>
 						</li>
 					</ul>
 					<!-- Navigation right (end) -->
