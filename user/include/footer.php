@@ -1,3 +1,8 @@
+<!-- Vue -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.4/vue.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.1/vue-resource.min.js"></script>
+
 <!-- jQuery 2.2.3 -->
 <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
@@ -16,6 +21,7 @@
 <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 
+<script src="app.js"></script>
 <!-- AdminLTE App -->
 <script src="../dist/js/app.min.js"></script>
 

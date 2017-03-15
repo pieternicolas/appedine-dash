@@ -15,6 +15,8 @@
 <script src="../../plugins/select2/select2.full.min.js"></script>
 <!-- iCheck 1.0.1 -->
 <script src="../../plugins/iCheck/icheck.min.js"></script>
+<!-- DataTables -->
+<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 
 <!-- AdminLTE App -->
 <script src="../dist/js/app.min.js"></script>
@@ -38,6 +40,16 @@
     $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
       checkboxClass: 'icheckbox_minimal-grey',
       radioClass: 'iradio_minimal-grey'
+    });
+
+    //Data table
+    $("#example1").DataTable({
+      "paging": false,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
     });
   });
 </script>
