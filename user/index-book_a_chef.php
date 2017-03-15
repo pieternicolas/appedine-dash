@@ -69,16 +69,17 @@
           </p>
         </div>
 
-        <div class="row profile-row">
+        <div class="row profile-row col-lg-10 col-lg-offset-1">
           <div class="col-sm-3">
-            <div class="box box-menu">
+            <div class="box box-chef">
               <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-              <div class="view-menu">
+              <div class="view-chef">
+                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
                 <h5>Bess Ball</h5>
                 <h6>North Quintonchester</h6>
-                <p class="view-menu-content">Thrill Friends And Family With A Make It Yourself Pizza Party</p>
+                <p class="view-chef-content">Thrill Friends And Family With A Make It Yourself Pizza Party</p>
                 <p>
-                  <i class="fa fa-usd"></i><span class="view-menu-price">96+</span><br class="hidden-xs">
+                  <i class="fa fa-usd"></i><span class="view-chef-price">96+</span><br class="hidden-xs">
                   per person
                 </p>
                 <div>
@@ -90,14 +91,15 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="box box-menu">
+            <div class="box box-chef">
               <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-              <div class="view-menu">
+              <div class="view-chef">
+                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
                 <h5>Carolyn Sanders</h5>
                 <h6>Grayceshire</h6>
-                <p class="view-menu-content">Delivering kisses and miracles</p>
+                <p class="view-chef-content">Delivering kisses and miracles</p>
                 <p>
-                  <i class="fa fa-usd"></i><span class="view-menu-price">57+</span><br class="hidden-xs">
+                  <i class="fa fa-usd"></i><span class="view-chef-price">57+</span><br class="hidden-xs">
                   per person
                 </p>
                 <div>
@@ -109,14 +111,15 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="box box-menu">
+            <div class="box box-chef">
               <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-              <div class="view-menu">
+              <div class="view-chef">
+                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
                 <h5>Steven Marsh</h5>
                 <h6>Jamirchester</h6>
-                <p class="view-menu-content">When to use high heat on your barbeque</p>
+                <p class="view-chef-content">When to use high heat on your barbeque</p>
                 <p>
-                  <i class="fa fa-usd"></i><span class="view-menu-price">127+</span><br class="hidden-xs">
+                  <i class="fa fa-usd"></i><span class="view-chef-price">127+</span><br class="hidden-xs">
                   per person
                 </p>
                 <div>
@@ -128,14 +131,15 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="box box-menu">
+            <div class="box box-chef">
               <img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-              <div class="view-menu">
+              <div class="view-chef">
+                <img src="../dist/img/user1-128x128.jpg" class="img-circle" width="100px" height="100px">
                 <h5>Harriet Diaz</h5>
                 <h6>Feilbury</h6>
-                <p class="view-menu-content">Bbq grilling versus the great debate</p>
+                <p class="view-chef-content">Bbq grilling versus the great debate</p>
                 <p>
-                  <i class="fa fa-usd"></i><span class="view-menu-price">77+</span><br class="hidden-xs">
+                  <i class="fa fa-usd"></i><span class="view-chef-price">77+</span><br class="hidden-xs">
                   per person
                 </p>
                 <div>

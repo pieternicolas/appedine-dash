@@ -1633,6 +1633,37 @@ a:focus {
   background-color: #f2f2f2;
   color: #343740;
 }
+.box.box-chef {
+  background-color: #343740;
+  color: #ffffff;
+  padding-top: 0;
+  min-height: 390px;
+}
+@media (max-width: 767px) {
+  .box.box-chef {
+    height: 100%;
+  }
+}
+.box.box-chef .view-chef {
+  padding: 10px;
+}
+.box.box-chef .view-chef > img {
+  border: 3px solid #ffffff;
+  margin-top: -60px;
+}
+.box.box-chef .view-chef h5 {
+  font-weight: bold;
+}
+.box.box-chef .view-chef .view-chef-content {
+  font-size: 13px;
+}
+.box.box-chef .view-chef .view-chef-price {
+  font-size: 20px;
+}
+.box.box-chef.inverse {
+  background-color: #f2f2f2;
+  color: #343740;
+}
 .box.box-default {
   border-top-color: none;
 }
