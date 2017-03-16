@@ -245,7 +245,7 @@
 						</div>
 						<br>
 						<div>
-							<a href="#" class="btn btn-default">Checkout</a>
+							<a href="checkout-intro-pop_up_events.php" class="btn btn-default">Checkout</a>
 							&nbsp;
 							<small class="text-muted"><i class="fa fa-lock"></i> Secure connection</small>
 						</div>

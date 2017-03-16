@@ -115,32 +115,36 @@
 					<h3>Most popular</h3>
 					<div class="row">
 						<div class="col-sm-4">
-							<div class="box box-menu inverse">
-								<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-								<div class="view-menu">
-									<h5>The Almighty Beer Can Chicken</h5>
-									<h6>Mueller</h6>
-									<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-										<i class="fa fa-usd"></i><span class="view-menu-price">117</span><br class="hidden-xs">
-										per person
-									</p>
-									<h6>8 - 30 guests | 3 hours</h6>
+							<a href="event-view.php">
+								<div class="box box-menu inverse">
+									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+									<div class="view-menu">
+										<h5>The Almighty Beer Can Chicken</h5>
+										<h6>Mueller</h6>
+										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
+											<i class="fa fa-usd"></i><span class="view-menu-price">117</span><br class="hidden-xs">
+											per person
+										</p>
+										<h6>8 - 30 guests | 3 hours</h6>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 						<div class="col-sm-4">
-							<div class="box box-menu inverse">
-								<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
-								<div class="view-menu">
-									<h5>Is It Frosting Or Is It Icing</h5>
-									<h6>Mueller</h6>
-									<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
-										<i class="fa fa-usd"></i><span class="view-menu-price">127</span><br class="hidden-xs">
-										per person
-									</p>
-									<h6>8 - 30 guests | 3 hours</h6>
+							<a href="">
+								<div class="box box-menu inverse">
+									<img src="../dist/img/chef-menu-1.jpg" style="width: 100%; height: 125px;">
+									<div class="view-menu">
+										<h5>Is It Frosting Or Is It Icing</h5>
+										<h6>Mueller</h6>
+										<p class="view-menu-content">Mix one shaken and one stirred cocktail at The Roosevelt Room</p>
+											<i class="fa fa-usd"></i><span class="view-menu-price">127</span><br class="hidden-xs">
+											per person
+										</p>
+										<h6>8 - 30 guests | 3 hours</h6>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 						<div class="col-sm-4">
 							<div class="box box-menu inverse">

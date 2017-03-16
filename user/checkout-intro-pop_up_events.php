@@ -56,7 +56,7 @@
         <h1>Checkout</h1>
         <h2>Already have an account?</h2>
         <div class="row">
-          <form>
+          <form action="checkout-pop_up_events.php">
             <div class="form-group col-sm-6 ">
               <label>Email</label>
               <input type="email" class="form-control" placeholder="juliadoe@gmail.com">

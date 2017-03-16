@@ -52,7 +52,7 @@
             <span class="primary-color"><b>at distinct venues</b></span></h1>
           </div>
           <div class="col-sm-10 col-sm-offset-1">
-            <form class="row">
+            <form class="row" action="event-browse.php">
               <div class="box">
                 <div class="col-sm-4">
                   <label>Where</label>
