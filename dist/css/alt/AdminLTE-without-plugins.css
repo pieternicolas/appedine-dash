@@ -145,6 +145,7 @@ body.hold-transition .main-header .logo {
 .content {
   min-height: 250px;
   padding: 15px;
+  padding-top: 25px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -1666,6 +1667,10 @@ a:focus {
 }
 .box.box-default {
   border-top-color: none;
+}
+.box.box-padded {
+  padding: 30px;
+  min-height: 100% !important;
 }
 .box.collapsed-box .box-body,
 .box.collapsed-box .box-footer {
