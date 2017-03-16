@@ -3533,6 +3533,7 @@ table.text-center th {
   height: 8px;
   font-size: 8px;
   text-align: right;
+  margin-top: -5px;
 }
 .main-area {
   height: 625px;

@@ -19,3 +19,18 @@ new Vue({
 	}
 
 })
+
+new Vue ({
+
+	el: "#voucherTest",
+
+	data:{
+		isRedeemed: false
+	},
+
+	methods: {
+		redeemVoucher () {
+			this.isRedeemed= true;
+		}
+	}
+})

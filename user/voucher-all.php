@@ -6,7 +6,7 @@
   <?php include __DIR__ . '/include/dash-navigation.php'; ?>
 
 <!-- Full Width Column -->
-  <div class="content-wrapper" id="app">
+  <div class="content-wrapper" id="voucherTest">
     <div class="container">
       <!-- Main content -->
       <section class="content col-sm-10">
@@ -14,7 +14,7 @@
           My vouchers
         </h1>
         <ul class="nav nav-tabs col-sm-10">
-          <li role="request-list">
+          <li role="request-list" class="active">
             <a href="#">All</a>
           </li>
           <li role="request-list">
@@ -35,12 +35,16 @@
             </p>
           </div>
           <div class="col-sm-3 col-sm-offset-1">
-              <div class="request-view">
+              <div class="request-view" :class="{ 'hidden': isRedeemed }">
                 <a href="#" class="btn btn-secondary text-uppercase" data-toggle="modal" data-target="#voucherRedeem">Redeem</a>
               
                 <a href="#" class="btn btn-secondary text-uppercase" data-toggle="modal" data-target="#voucherShare">Share now</a>
               </div>
+              <div class="request-view" :class="{ 'hidden': !isRedeemed }">
+                <a href="#" class="btn btn-archive text-uppercase ">Redeemed</a>
+              </div>
           </div>
+          <div :class="{ 'overlay': isRedeemed }"></div>
         </div>
         <div class="box col-sm-10 request">
           <div class="col-sm-8">
@@ -69,12 +73,12 @@
             </div>
             <div class="modal-body text-center">
               <h4>Enter merchant's PIN code below</h4>
-              <form>
+              <div>
                 <div class="form-group">
                   <input type="text" class="form-control text-center" onkeypress="return isNumberKey(event)" placeholder="6 digit PIN code" maxlength="6">
                 </div>
-                <input type="submit" class="btn btn-default" value="Redeem">
-              </form>
+                <button class="btn btn-default" @click="redeemVoucher">Redeem</button>
+              </div>
             </div>
           </div>
         </div>
