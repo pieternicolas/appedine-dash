@@ -139,6 +139,7 @@
 }
 .skin-black .main-header.main-header-home.inverse .navbar {
   background-color: #ffffff;
+  padding-bottom: 25px;
 }
 .skin-black .main-header.main-header-home.inverse .navbar .nav > li > a {
   color: #bcc5cd;

@@ -204,49 +204,37 @@
             </div>
             <!-- left side bar end -->
             <!-- right side bar -->
-            <div class="col-lg-5">
-              <div class="box box-menu box-padded inverse">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <span class="h3">
-                      <sup><i class="fa fa-usd"></i></sup>
-                      117
-                      <sub><small>lowest price per person</small></sub>
-                    </span>
-                  </div>
+            <div class="col-lg-4" id="sidebar-right">
+              <div class="box box-padded mini">
+                <div>
+                  <sup><i class="fa fa-usd"></i></sup>
+                  <span class="h3">117</span>
+                  <sub>lowest price per person</sub>
                 </div>
                 <br>
                 <div class="row">
-                  <div class="col-xs-5 form-group">
-                    <label>Group size</label>
-                    <div class="input-group">
-                      <input type="number" class="form-control" placeholder="# of people" min="0">
-                      <div class="input-group-addon">
-                        <i class="fa fa-users"></i>
-                      </div>
-                    </div>
+                  <div class="col-xs-5">
+                    <label>Group Size</label>
+                    <input type="number" class="form-control" placeholder="# of person" min="0">
                   </div>
-                  <div class="col-xs-7 form-group">
-                    <label>Date and time</label>
-                    <div class="input-group">
-                      <input type="text" class="form-control" id="datepicker" placeholder="Choose date">
-                      <div class="input-group-addon">
-                        <i class="fa fa-calendar"></i>
-                      </div>
-                    </div>
+                  <div class="col-xs-7">
+                    <label>Date and Time</label>
+                    <input type="text" id="datepicker" class="form-control" placeholder="Date">
                   </div>
                 </div>
                 <div>
                   <label>Total</label>
-                  <span class="h3 pull-right">
+                  <span class="pull-right h4">
                     <i class="fa fa-usd"></i>
-                    772.2
+                    <strong>
+                      876,00
+                    </strong>
                   </span>
                   &nbsp;
                 </div>
                 <br>
                 <div>
-                  <a href="#" class="btn btn-default">Customize dishes &amp; pay</a>
+                  <a href="checkout-intro-chef_on_demand.php" class="btn btn-default">Customize dishes and pay</a>
                 </div>
               </div>
               <div>
@@ -254,6 +242,7 @@
                 <a href="#" class="h4 text-bold btn-block"><i class="fa fa-envelope-o"></i> &nbsp; Email</a>
                 <a href="#" class="h4 text-bold btn-block"><i class="fa fa-print"></i> &nbsp; Print</a>
               </div>
+            </div>
               <!-- right side bar end -->
             </div>
           </div>

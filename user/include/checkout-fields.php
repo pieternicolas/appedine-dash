@@ -26,9 +26,9 @@
 						</div>
 					</div>
 			</div>
-
+		
 			<div class="form-group col-sm-6">
-				<div>
+				<div class="row">
 					<div class="col-sm-7">
 						<label>Exp. Date</label>
 						<input type="text" class="form-control" placeholder="09/18">
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-
+			
 			<div class="form-group col-sm-6">
 				<label>First Name</label>
 				
@@ -53,9 +53,10 @@
 					<input type="text" class="form-control" placeholder="Doe">
 				
 			</div>
-			&nbsp;
+			
+			<div class="form-group col-xs-4">
+				<input type="submit" class="btn btn-primary text-uppercase form-control" value="Complete Purchase">
+			</div>
 		
 	</div>
-
-	<input type="submit" class="btn btn-primary col-sm-4 text-uppercase" value="Complete Purchase">
 	</form>

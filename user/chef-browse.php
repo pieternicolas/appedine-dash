@@ -58,7 +58,7 @@
 					<p>Find fun event ideas and venues in Austin for your next client entertainment event, <br class="hidden-xs"> team-building activity, company party, corporate meeting and more.</p>
 				</div>
 				<div class="col-sm-3">
-					<div class="box">
+					<div class="box box-padded mini">
 						<label>FILTERS</label>
 						<a href="#" class="pull-right primary-color">CLEAR ALL</a>
 						<div>

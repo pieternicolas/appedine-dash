@@ -9,12 +9,17 @@
   <div class="content-wrapper" id="app">
     <div class="container">
       <!-- Main content -->
-      <section class="content col-sm-10">
-        <h1 class="col-sm-12">
-          My requests
-        </h1>
-        <ul class="nav nav-tabs col-sm-10">
-          <li role="request-list">
+      <section class="content">
+        <div class="row">
+          <div class="col-xs-6">
+            <h1>My requests</h1>
+          </div>
+          <div class="col-xs-6">
+            <a href="request-create.php" class="btn btn-default pull-right">Create request</a>
+          </div>
+        </div>
+        <ul class="nav nav-tabs">
+          <li role="request-list" class="active">
             <a href="#">All</a>
           </li>
           <li role="request-list">
@@ -63,9 +68,6 @@
           <div class="overlay"></div>
         </div>
       </section>
-      <div class="col-sm-2">
-        <a href="request-create.php" class="btn btn-default">Create request</a>
-      </div>
       <!-- /.content -->
     </div>
     <!-- /.container -->

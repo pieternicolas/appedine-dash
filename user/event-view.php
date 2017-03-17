@@ -52,7 +52,7 @@
 		<div class="container">
 			<!-- Main content -->
 			<section class="content">
-				<div class="col-lg-9">
+				<div class="col-lg-8">
 					<h1 class="text-capitalize">Quick And Easy Lunches For The Cooking Challenged</h1>
 
 					<h3>Mueller</h3>
@@ -215,8 +215,8 @@
 
 				</div>
 
-				<div class="col-lg-3" id="sidebar-right">
-					<div class="box">
+				<div class="col-lg-4" id="sidebar-right">
+					<div class="box box-padded mini">
 						<div>
 							<sup><i class="fa fa-usd"></i></sup>
 							<span class="h3">96</span>
@@ -251,24 +251,9 @@
 						</div>
 					</div>
 					<div>
-						<div>
-							<a href="#" class="h4">
-								<i class="fa fa-heart-o"></i> &nbsp;
-								Add to my favourites
-							</a>
-						</div>
-						<div>
-							<a href="#" class="h4">
-								<i class="fa fa-envelope-o"></i> &nbsp;
-								Email
-							</a>
-						</div>
-						<div>
-							<a href="#" class="h4">
-								<i class="fa fa-print"></i> &nbsp;
-								Print
-							</a>
-						</div>
+						<a href="#" class="h4 text-bold btn-block"><i class="fa fa-heart-o"></i> &nbsp; Add to my favourites</a>
+						<a href="#" class="h4 text-bold btn-block"><i class="fa fa-envelope-o"></i> &nbsp; Email</a>
+						<a href="#" class="h4 text-bold btn-block"><i class="fa fa-print"></i> &nbsp; Print</a>
 					</div>
 				</div>
 			</section>

@@ -52,11 +52,11 @@
       <!-- Main content -->
       <section class="content">
         <div class="row">
-          <div class="col-lg-9">
+          <div class="col-lg-8">
             <h1>Customize your menu</h1>
             <!-- Appetizer menus -->
             <div id="appetizer">
-              <ul class="nav nav-tabs">
+              <ul class="nav nav-tabs row">
                 <li class="active">
                   <a href="#"><label>Appetizer options</label></a>
                 </li>
@@ -115,7 +115,7 @@
             <!-- Appetizer menu end -->
             <!-- Mains menu -->
             <div id="mains-menu">
-              <ul class="nav nav-tabs">
+              <ul class="nav nav-tabs row">
                 <li class="active">
                   <a href="#"><label>Main options</label></a>
                 </li>
@@ -201,8 +201,8 @@
             </div>
             <!-- Mains menu end -->
           </div>
-          <div class="col-lg-3">
-            <div class="box box-menu inverse">
+          <div class="col-lg-4">
+            <div class="box box-menu box-padded inverse">
               <h2>Dishes Friday</h2>
               <div class="row">
                 <div class="col-xs-6">
@@ -235,7 +235,7 @@
               </div>
             </div>
 
-            <div class="box box-menu inverse">
+            <div class="box box-menu box-padded inverse">
               <div>
                 <label>Total</label>
                 <span class="h3 pull-right">

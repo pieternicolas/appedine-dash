@@ -9,11 +9,13 @@
   <div class="content-wrapper" id="voucherTest">
     <div class="container">
       <!-- Main content -->
-      <section class="content col-sm-10">
-        <h1 class="col-sm-12">
-          My vouchers
-        </h1>
-        <ul class="nav nav-tabs col-sm-10">
+      <section class="content">
+        <div class="row">
+          <div class="col-xs-6">
+            <h1>My vouchers</h1>
+          </div>
+        </div>
+        <ul class="nav nav-tabs">
           <li role="request-list" class="active">
             <a href="#">All</a>
           </li>
